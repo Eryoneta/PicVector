@@ -1,0 +1,1834 @@
+<mind fontName="Courier New" fontSize="12" fontStyle="0">	<mod border="0" color="33CCFF" icons="" title="PicVector" x="16" y="-2">		<text>+ PicVector:
+- Um software de criação de imagens com o uso de vetores e rascais.
+- O icone é uma paleta que se parece com um cérebro.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Interface" x="6" y="-2">		<text>+ Interface:
+- As interfaces são contidas em diferentes janelas.
+- No topo, tem a opção de modo horizontal ou vertical, que vira a posição de todos os itens.
+. O topo vai para a lateral esquerda, o título some, deixando o ícone.
+. Alguns itens mudam.
+- O tamanho de uma janela pode ser limitado pela quantidade de itens, caso não haja um item que possa se esticar.
+</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Idéias" x="17" y="-7">		<text>+ Idéias:&#13;
+- Pode-se mudar um vetor para rascal e vice-versa.&#13;
+. As vetoriais se transformam em rabiscos rascais.&#13;
+. As rascais se transformam em uma imensa Forma com um fundo de imagem.&#13;
+- Uma Forma pode ter um fundo de imagem.&#13;
+. Faça-a com cor transparente e coloque uma imagem em uma subcamada.&#13;
+. As imagens na subcamada aparecem apenas para a camada-pai, sendo invisível para as demais.&#13;
+- Gradientes, texturas, efeitos, são todos fundos que podem ser inseridos em uma Forma.&#13;
+- Fontes podem ser tratados como um grupo de Formas inseridos.&#13;
+- Poderia haver uma forma de editar todas as imagens juntas.&#13;
+. Salvar todos os arquivos. Salva todos e pergunta pelos novos em ordem.&#13;
+  Oferece uma lista, permitindo cancelar tudo.&#13;
+. Edições podem ser feitas em todos juntos em uma edição padronizada massiva.&#13;
+- O undo suporta desfazeres exatos até um ponto, onde passa a desfazer em grupos. Ou é infinito?&#13;
+- Ao pressionar um certo botão, o mouse é cercado por um círculo indicando todas as ferramentas disponíveis.&#13;
+- O pincel cria uma Forma cheia de Pontos, que simula uma pincelada.&#13;
+. Usado apenas no fundo de uma Forma e não pode ser movido, apenas apagado ou pincelado.&#13;
+- Certos movimentos e poses do exoesqueleto podem ativar atalhos.&#13;
+- Opção de controle de gráficos:&#13;
+. Permite decidir a qualidade das splines, a qualidade do draw.&#13;
+. Linhas podem ter quantidades diferentes de Pontos ao serem construídos no draw, mudando de suave para completamente reto, o que acelera o processo de draw.&#13;
+  Elas podem também não mostrar suas texturas, apenas sua área, acelerando ainda mais o draw.&#13;
+- Ao salvar, ele avisa caso a imagem for perder o canal alpha.&#13;
+</text>	</mod>	<mod border="0" color="FFFFFF" icons="" title="Tela de Edição" x="-18" y="-8">		<text>+ Tela de Edição:&#13;
+- É onde ocorre toda a edição da imagem.&#13;
+- Pode ser movido livremente, mas não além da imagem ficando fora do centro da tela.&#13;
+- Pode ter uma grade de píxeis.&#13;
+- Pode ter uma régua no topo e lado esquerdo.&#13;
+. Ela permite criar pontos onde passa uma linha, permitindo alinhar coisas com mais facilidade.&#13;
+  Os Pontos automaticamente grudam nela, se estão próximos.&#13;
+  Intercecção de linhas grudam ainda mais.&#13;
+- Pontos, Linhas, e Formas podem ficar fora da tela, aparentemente no vazio.&#13;
+. Isso permite que possam ser arrastados de volta, ou que um desenho vetorial possa ser movido parcialmente para fora.</text>	</mod>	<mod border="0" color="999999" icons="" title="Barra de Ferramentas" x="-69" y="-20">		<text>+ Barra de Ferramentas:&#13;
+- Todos tem atalhos que podem ser customizados.&#13;
+- Ao ser redimensionado, mantém o tamanho exato do total de itens.</text>	</mod>	<mod border="0" color="999999" icons="" title="Camadas" x="-21" y="-2">		<text>+ Camadas:&#13;
+- Lista todas as camadas da imagem, permitindo separar elementos dela.&#13;
+- Cada camada pode ser escondida.&#13;
+. Ao criar o resultado final, elas não aparecem.&#13;
+- Cada camada tem um nome que pode ser mudado.&#13;
+- Cada camada pode ser transparente.&#13;
+. Ao criar o resultado final, elas permanecem transparentes.&#13;
+- Cada camada tem 2 imagens: Uma é a dela e a outra é dela junta com as das camadas de baixo.&#13;
+- O maior propósito é para separar os elementos de forma que não cause lag(Desenhar uma imagem em vez de cada elemento separados).&#13;
+- Cada camada permite subcamadas, que permitem subcamadas.&#13;
+. Cada subcamada pode ser recolhida.&#13;
+- Mostra cada elemento?&#13;
+- Tem camadas rascais e vetoriais.&#13;
+. Cada tipo tem uma cor diferente: Rascais são brancas e vetoriais são azúis-claras.&#13;
+- Ao colar ou inserir um texto, uma nova camada é criada.&#13;
+- O icone de visível é um olho, que é fechado se a camada não é visível.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Inspirações" x="10" y="3">		<text>* Inspirações:&#13;
+&#13;
++ Janelas soltas que podem ser facilmente movidas.&#13;
+- O programa "Paint.net".&#13;
+&#13;
++ Janelas embutidas na interface, lado-a-lado.&#13;
+- O programa "Eclipse Luna".&#13;
+&#13;
++ Atalhos personalizáveis.&#13;
+- O programa "Notepad++".&#13;
+&#13;
++ Comandos para criar ferramentas.&#13;
+- O jogo "Minecraft".</text>	</mod>	<mod border="0" color="999999" icons="" title="Histórico" x="-20" y="-12">		<text>+ Histórico:&#13;
+- Mostra em uma lista todas as alterações feitas.&#13;
+. Clicar em um item, volta tudo até aquela edição.&#13;
+- Tem botões para avançar e voltar.&#13;
+- A seleção também conta como edição.&#13;
+- Mostra o tempo em que as alterações foram feitas.&#13;
+- Pode mostrar apenas os icones das edições feitas.&#13;
+. Hover nelas mostra o que exatamente são.&#13;
+- Mostra a quantidade de alterações salvas e a quantidade restante permitida.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Mão" x="-51" y="-30">		<text>+ Mão:&#13;
+- Icone:&#13;
+. Uma mão.&#13;
+. O fundo é claro, neutro.&#13;
+- Cursor:&#13;
+. Uma seta com um alvo ao lado.&#13;
+. Quando pressionado, a seta brilha.&#13;
+- Atalhos:&#13;
+. mouse_middle_drag: Arrasta a tela com o mouse.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Mover" x="-53" y="-35">		<text>+ Mover a Seleção:&#13;
+- Icone:&#13;
+. Setas em 4 direções.&#13;
+. O fundo é claro, neutro.&#13;
+- Cursor:&#13;
+. Uma seta com um alvo branco ao lado.&#13;
+. Quando pressionado, a seta brilha.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Selecionar" x="-78" y="-40">		<text>+ Selecionar:&#13;
+- Icone:&#13;
+. Um retângulo com bordas pontilhadas.&#13;
+. O fundo é claro, neutro.&#13;
+- Cursor:&#13;
+. Um alvo.&#13;
+. Quando pressionado, o alvo fica menor.&#13;
+- Atalhos:&#13;
+. Key_Shift_Down + Mouse_Left_Down permite criar um retângulo entre o ponto inicial e outro ponto.&#13;
+. Key_Ctrl_Down + Mouse_Left_Down + Mouse_Left_Drag permite selecionar várias áreas, as fundindo.&#13;
+. Key_Ctrl_Down + Mouse_Left_Down permite criar um trajeto com clicks e não drag.&#13;
+. Key_Ctrl_Down + Mouse_Left_Down permite selecionar várias.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Caneta" x="-55" y="-1">		<text>+ Caneta:&#13;
+- Icone:&#13;
+. Uma caneta preta.&#13;
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Apagador" x="-63" y="16">		<text>+ Apagador:&#13;
+- Icone:&#13;
+. Um apagador de lousa.&#13;
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Bomba" x="-55" y="14">		<text>+ Bomba:
+- Icone:
+. Uma bomba de ar.
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Gradiente" x="-84" y="-25">		<text>+ Gradiente:&#13;- Icone:&#13;. Um quadrado com uma cor em gradiente.&#13;. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Preencher" x="-88" y="-31">		<text>+ Balde:&#13;
+- Icone:&#13;
+. Um balde derramando tinta.&#13;
+. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Imagem" x="-76" y="-6">		<text>+ Imagem:&#13;
+- Icone:&#13;
+. Um icone de imagem.&#13;
+. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Amostrador" x="-69" y="-41">		<text>+ Amostrador:&#13;
+- Icone:&#13;
+. Uma seringa coletora.&#13;
+. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Formatos Geométricos" x="-91" y="-16">		<text>+ Formatos Geométricos:&#13;- Icone:&#13;. Várias formas geométricas.&#13;. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Lupa" x="-51" y="-24">		<text>+ Lupa:&#13;
+- Icone:&#13;
+. Uma lupa.&#13;
+. O fundo é claro, neutro.&#13;
+- Cursor:&#13;
+. Uma lupa.&#13;
+. Se Mouse_Left_Down, a lupa tem um +.&#13;
+. Se Mouse_Right_Down, a lupa tem um -.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Apagar" x="-86" y="-28">		<text>+ Apagar:&#13;
+- Icone:&#13;
+. Uma borracha.&#13;
+. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Escrever" x="-91" y="-20">		<text>+ Escrever:
+- Icone:
+. Uma letra T.
+. O fundo é claro, neutro.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Técnicas" x="21" y="3">		<text>+ Técnicas:&#13;
+- Movimentar membros:&#13;
+. Duas linhas podem ser conectados em um ponto, mas estarem separados em diferentes camadas.&#13;
+. Cada camada pode ser rotacionado em um ponto específico de acordo com a anterior.&#13;
+. Isso permite mover membros de um personagem.&#13;
+- Criar um fundo com imagem:&#13;
+. Uma forma tem o fundo de cor transparente.&#13;
+. Em uma subcamada, ter a imagem.&#13;
+- Criar logo de Gravity Falls:&#13;
+. Com o valor de Texto, cada letra adiciona uma série de Formas em um certo local.&#13;
+. Cada elemento das letras adicionados obedecem regras.&#13;
+- Animações são feitas apenas com Localização, Rotação, e Escalação.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Texturizar" x="-81" y="-10">		<text>+ Texturizar:&#13;
+- Icone:&#13;
+. Um pincel largo.&#13;
+. O fundo é claro, neutro.&#13;
+</text>	</mod>	<mod border="0" color="FFFFFF" icons="" title="Barra de Status" x="-24" y="2">		<text>+ Barra de Status:&#13;
+- Uma barra contendo informações.&#13;
+. Dicas de uso das ferramentas?&#13;
+. Tamanho da imagem em px.&#13;
+. Posição do cursor em px.&#13;
+. Zoom.&#13;
+  Mostra a % de zoom aplicado.&#13;
+  Tem um slider com botões.&#13;
+  Um botão retorna o zoom para 100%.&#13;
+. Rotação.&#13;
+  Mostra o º de rotação aplicada.&#13;
+  Tem um slider com botões.&#13;
+  Um botão retorna a rotação para 0º.&#13;
+. Um toggle inverte a imagem horizontalmente.&#13;
+  Icone: Um símbolo de duas setas opostas na horizontal, uma acima da outra.</text>	</mod>	<mod border="0" color="FFFFFF" icons="" title="Barra de Atalhos" x="-18" y="-19">		<text>+ Barra de Atalhos:&#13;- Uma barra contendo atalhos dos itens mais usados(Salvar, abrir, etc).&#13;. Arquivo.&#13;. Editar.&#13;. Exibir.&#13;  Repetir fundo.&#13;. Imagem.&#13;. Camada.&#13;. Efeitos.&#13;- Pode ser customizado.&#13;- Pode ser escondido.&#13;- Itens:&#13;. Novo.&#13;. Abrir.&#13;. Salvar.&#13;. ---.&#13;. Copiar.&#13;. Cortar.&#13;. Colar.&#13;. ---.&#13;. Desfazer.&#13;. Refazer.&#13;. ---.&#13;. Grade.&#13;. Régua.&#13;. Cobrir bordas.&#13;  Cobre as bordas da imagem, mostrando apenas o resultado final.&#13;</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Janelas" x="-27" y="-20">		<text>+ Janelas:
+- Ficam acima, em janelas independentes.
+. Podem ser movidas, redimensionadas, minimizadas, ou fechadas.
+- Podem ser reabertas ao clicar nos pequenos ícones que ficam no canto.
+. Uma rápida animação mostra onde a janela fechada foi.
+- Ao clicar em um cadeado no canto da janela principal, é possível mudar a relação entre as janelas.
+. Em cada lado das janelas, há uma âncora. Ele dirige uma linha que pode ser conectada a um outra âncora de outra janela.
+  Chamados de TOP, BOTTOM, RIGHT, ou LEFT, eles ocupam um lado inteiro.
+. De acordo com as conexões, o tamanho e posição da janela é determinada.
+  Se conectar um TOP com um BOTTOM, a janela se localiza abaixo dela.
+  Se conectar um RIGHT no LEFT, ela fica no lado da outra.
+  Se conectar um LEFT no LEFT, ela fica fixa na horizontal.
+  Se conectar um LEFT com o RIGHT de uma e o RIGHT com o LEFT de outra, a largura é a distância entre as janelas.
+  Não há conexão dos lados verticais com os horizontais.
+. A ligação fica clara com uma linha que passa por cima dos lados conectados, indicando a regra que estão seguindo.
+- Elas podem ser movidas, mas no momento que a janela a qual possuem ligação muda de tamanho ou local, ela é atualizada de volta.
+- Elas tem nome, que pode ser escondido se não houver espaço.
+. Todas tem um icone.
+- A transparência pode ser mudada.
+- As posições e tamanhos delas podem ser guardadas em "modos"(1 até 4).
+. Eles podem ser nomeados.
+- Com mouse_double_click, a janela ocupa todo o espaço.
+. Ou há os clássicos botões de ocultar, minimizar, e fechar.</text>	</mod>	<mod border="0" color="EFEFEF" icons="" title="Pincel" x="-50" y="-11">		<text>+ Pincel:&#13;
+- Icone:&#13;
+. Um pincel preto.&#13;
+. O fundo é da cor das camadas rascais.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Mecânica" x="22" y="-16">		<text>+ Mecânica:
+- Os píxels ficam em um xadrez.
+. Pixeis guardam as cores.
+- A linha é um spline, cada ponto de Mouse_Move sendo um pontoControle.
+- A imagem pode ser salva em .picv, ou outros formatos de imagem.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Pinça" x="-55" y="9">		<text>+ Pinça:
+- Icone:
+. Uma pinça.
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="999999" icons="" title="Opções" x="-26" y="-6">		<text>+ Opções:
+- Seu conteúdo varia de acordo com a ferramenta selecionada.
+- Seleção de cores:
+. Uma grade de cores.
+. Cada bloco pode ser arrastado para outra posição.
+- Existe sempre um menu com uma lista das ferramentas disponíveis.
+. É essencial para definir atalhos que mudam as ferramentas.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Vetores" x="22" y="-19">		<text>+ Vetores:
+- O resultado mostrado fica na grade de pixels, uma forma pixelizada.
+- A vantagem fica evidente com a aplicação de resize na imagem: As formas mantêm a qualidade.
+. Além de poderem ser reposicionados.
+- Ponto:
+. Um ponto2D.
+. Tem tamanho variável.
+-Linha:
+. Um spline catmullRoom.
+  Vários Pontos o forma.
+  A grossura de cada Ponto define a grossura da Linha, que é variável.
+. Pode ter um fundo de cor diferente ou imagem.
+- Forma:
+. Uma forma criada com a junção de várias Linhas.
+. Existe apenas entre as Linhas.
+. Pode ter um fundo de cor diferente ou imagem.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Regras" x="29" y="-19">		<text>+ Regras:
+- Uma linha deve ser reta, sempre em relação a um ponto.
+. Necessita de um ponto escolhido.
+. Pode ser pontos que sejam retos em relação a dois outros pontos.
+- Uma Forma, ou coleção de Formas e Linhas deve ser reta em relação a um ponto.
+. Basicamente, uma imagem se torna curvada em relação a um ponto.
+- Regras podem ser aplicadas apenas em pontos.
+- Manter uma certa distância de um ponto.
+- Manter uma distância relativa entre dois pontos.
+- Adicionar regras suficientes para criar textos personalizados de intros?
+. Cada letra de um campo adiciona uma forma que obedece regras.
+- Basicamente, cada variável de cada Ponto, Linha e Forma podem ser editados.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Arquivos" x="16" y="21">		<text>+ Arquivos:</text>	</mod>	<mod border="0" color="999999" icons="" title="PicVector" x="18" y="50">		<text>+ PicVector:
+	JFrame janela;
+		Painel painel;
+	List&lt;Imagem&gt; imagens;
+
+	AtalhosBarra atalhosBarra;
+	StatusBarra statusBarra;
+	ImagemEditor imagemEditor;
+
+	Ferramentas ferramentas;
+	Historico historico;
+	Camadas camadas;
+	Cores cores;</text>	</mod>	<mod border="0" color="999999" icons="" title="Ferramentas" x="-11" y="72">		<text>+ Ferramentas:
+- É extended de Interface.
+- Vars:
+. Botao adicionar;
+. Botao ...;</text>	</mod>	<mod border="0" color="999999" icons="" title="Janela" x="11" y="82">		<text>+ Janela:
+- Extends JDialog.
+//Painel
+	Painel painel;
+		Painel getPainel();
+//Borda
+	Borda borda;
+		Borda getBorda();
+//Botão X
+	Botao X;			//Fecha a janela.
+//Var Globais
+	static float TRANSPARENCIA;
+//Main
+	Janela(JFrame);	//Utiliza janela como pai
+//Main Form
+@Override
+	setSize(int,int);				//Limita o tamanho e define a posição de X
+@Override
+	setBounds(int,int,int,int);	//Limita o tamanho e define a posição de X
+	getSizeLimit(int,int);			//Informa o limite de tamanho permitido
+//Main Draw
+@Override
+	void paint(Graphics imagemEdit);
+</text>	</mod>	<mod border="0" color="999999" icons="" title="JanelaMestre" x="16" y="78">		<text>+ JanelaMestre:
+- Extends JFrame.
+- Adiciona âncoras à janela principal.
+//Borda
+	Borda borda;
+		Borda getBorda();
+//Main
+	JanelaMestre();</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Painel" x="17" y="67">		<text>+ Painel:
+- Extends JPainel.
+//Janela(Pai)
+	Window janela;
+		Window getJanela();
+//Elementos
+	List&lt;Elemento&gt; elementos;
+		List&lt;Elemento&gt; getElementos();
+		void add(Elemento);
+		void del(Elemento);
+//Main
+	Painel(Window);
+//Main Draw
+@Override
+	void paintComponent(Graphics imagemEdit);	//Desenha o imagem de cada Elemento.
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Elemento" x="-22" y="55">		<text>+ Elemento:
+//Painel(Pai)
+	Painel painel;
+		Painel getPainel();
+//Local
+	int x;
+		int getX();
+		void setX();
+	int y;
+		int getY();
+		void setY();
+	Point getLocation();
+	void setLocation(int,int);
+//Form
+	boolean update;		//Se seu tamanho foi alterado, precisando mudar a área de draw
+	int width;
+		int getWidth();
+		void setWidth();
+	int height;
+		int getHeight();
+		void setHeight();
+	Dimension getSize();
+	void setSize(int,int);
+	Rectangle getBounds();
+	void setBounds(int,int,int,int);
+	void setBounds(Rectangle);
+//Visible
+	boolean visible;
+		boolean isVisible();
+		void setVisible(boolean);
+//Print
+	Image print;
+		Image getPrint();
+//Main
+	Elemento(Painel);
+//Redraw
+	void redraw();			//Para atualizar a print
+	void draw(Graphics);	//Modelo para ser @Overrided nos Elementos-extended
+</text>	</mod>	<mod border="0" color="999999" icons="" title="ImagemEditor" x="-13" y="50">		<text>+ ImagemEditor:
+- É extended de Elemento.
+- Vars:
+. static final int NORMAL, CREATE_POINT;	//Usado na edição.
+. static int MOUSE_STATE;		//Usado na edição.
+. Imagem imagem;
+- Functions:
+. draw(Graphics imagemEdit);		//Override de Elemento.
+  Desenha um fundo xadrez.
+  Chama o draw() da Imagem.</text>	</mod>	<mod border="0" color="999999" icons="" title="Botao" x="-35" y="77">		<text>+ Botao:
+- Extends Elemento.
+//States
+	enum State{
+		INACTIVE, HOVERED, ACTIVE, DRAGGED;
+		boolean is(State...);
+	}
+	State state;
+		void setState(State);
+//Cores
+	Color cor;
+		Color getCor();
+		void setCor(Color);
+	Color hoverColor;
+		Color getCorOnHover();
+		void setCorOnHover(Color);
+	Color activeColor;
+		Color getCorOnActive();
+		void setCorOnActive(Color);
+//Legenda
+	JPopupMenu popup;
+		setLegenda(String);
+//Action
+	Runnable acao;
+		void setAction(Runnable);
+		void click();
+//Main
+	Botao(Painel);
+//Main Draw
+@Override
+	draw(Graphics);
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Camada" x="35" y="59">		<text>+ Camada:
+//Imagem(Pai)
+	Imagem imagem;
+		Imagem getImagem();
+//Rascal
+	Rascal rascal;
+		Rascal getRascal();
+//Vetorial
+	Vetorial vetorial;
+		Vetorial getVetorial();
+//Print
+	Image print;		//Imagem que é alterada somente quando necessário
+		Image getPrint();
+		void setSize(int,int);
+//Main
+	Camada(Imagem);
+//Redraw
+	void updatePrint();	//Atualiza a imagem. Desenha o rascal, linhas e formas na imagem
+//Draw
+	void draw(Graphics2D);</text>	</mod>	<mod border="0" color="000000" icons="" title="Rascal" x="31" y="63">		<text>+ Rascal:
+//Camada(Pai)
+	Camada camada;
+		Camada getCamada();
+//Imagem
+	Image imagem;
+		Image getImagem();
+//Form
+	void setSize(int,int);
+//Main
+	Rascal(Camada);
+//Clear
+	static void clear(Graphics2D,int,int);	//Apaga a área, sem necessidade de criar nada! :D
+//Funções
+	void drawImage(Image);
+	void drawPixel(int,int);
+	void fillArea(int,int);
+	void drawSpline(Spline,int,int);
+//Redraw
+	void updatePrint();
+//Draw
+	void draw(Graphics2D);</text>	</mod>	<mod border="0" color="000000" icons="" title="Linha" x="48" y="65">		<text>+ Linha:
+- Extends Spline.
+//Vetorial(Pai)
+	Vetorial vetorial;
+		Vetorial getVetorial();
+//Cor
+	Color cor;
+//Form
+	List&lt;Ponto&gt; getAllPontos();
+	Path2D.Double getForm();		//Retorna a forma da spline, com grossura.
+//Main
+	Linha();
+//Draw
+	void draw(Graphics2D); 	//Desenha a forma da spline, com grossura. Chama o draw() de Spline com no_antialiased.
+</text>	</mod>	<mod border="0" color="000000" icons="" title="Forma" x="42" y="68">		<text>+ Forma:
+//Vetorial(Pai)
+	Vetorial vetorial;
+		Vetorial getVetorial();
+//Linhas
+	List&lt;Linha&gt; linhas;		//Usadas para criar a forma.
+		boolean add(Linha);
+		boolean del(Linha);
+		List&lt;Linha&gt; getLinhas();
+//Form
+	Path2D.Double getForm();
+//Main
+	Forma();
+//Draw
+	void draw(Graphics2D);</text>	</mod>	<mod border="0" color="000000" icons="" title="Ponto" x="52" y="61">		<text>+ Ponto:
+- Extends Ponto2D.
+//Vetorial(Pai)
+	Vetorial vetorial;
+		Vetorial getVetorial();
+//Cor
+	static Color COR;	//Cor de todos os Pontos
+//Form
+	double size;
+		double getSize();
+		void setSize(double);
+	Path2D.Double getForm();
+//Main
+	Ponto();
+	Ponto(double,double);
+	Ponto(Ponto);
+//Draw
+	void draw(Graphics2D);
+</text>	</mod>	<mod border="0" color="999999" icons="" title="Camadas" x="-11" y="69">		<text>+ Ferramentas:
+- É extended de Interface.
+- Vars:
+. Botao ...;</text>	</mod>	<mod border="0" color="999999" icons="" title="Historico" x="-11" y="66">		<text>+ Historico:
+- É extended de Interface.
+- Vars:
+. Botao ...;</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Spline" x="57" y="65">		<text>+ Spline:
+//Cor
+	Color COR;
+//Pontos
+	List&lt;Ponto2D&gt; pontos;		//Pontos de controle
+		List&lt;Ponto2D&gt; getControlPontos();
+		boolean add(Ponto2D);
+		boolean del(Ponto2D);
+		Ponto2D get(int);
+//Form
+	List&lt;Ponto2D&gt; getAllPontos2D();			//Retorna todos os Pontos da spline
+		Point catmullRoom(double,Ponto2D,Ponto2D,Ponto2D,Ponto2D);	//Retorna um ponto da spline
+	Path2D.Double getForm();					//Retorna a linha da spline
+//Main
+	Spline();
+//Draw
+	void draw(Graphics2D);
+</text>	</mod>	<mod border="0" color="999999" icons="" title="AtalhosBarra" x="-13" y="47">		<text>+ AtalhosBarra:
+- É extended de Elemento.
+- Vars:</text>	</mod>	<mod border="0" color="999999" icons="" title="StatusBarra" x="-13" y="53">		<text>+ StatusBarra:
+- É extended de Elemento.
+- Vars:
+. Imagem imagem;</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="States" x="-42" y="92">		<text>+ States:
+- INACTIVE:			Fundo vazio.
+- HOVERED|DRAGGED:	Borda azul-claro.
+- ACTIVE:				Borda e fundo azul-claro.</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="INACTIVE" x="-43" y="96">		<text>+ INACTIVE:
+- Nada ocorre.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="-66" y="96">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="ACTIVE" x="-54" y="106">		<text>+ ACTIVE:
+- O mouse está pressionando o botão.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_move" x="-44" y="99">		<text>+ mouse_move:
+	if(contains(mouse)){
+		setState(HOVER);
+		if(popup){
+			popup.show(mouse);
+		}
+	}</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="HOVERED" x="-57" y="96">		<text>+ HOVERED:
+- O mouse está acima do botão.</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="-63" y="108">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="DRAGGED" x="-44" y="113">		<text/>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="-48" y="106">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_move" x="-58" y="99">		<text>+ mouse_move:
+	if(!contains(mouse)){
+		setState(INACTIVE);
+		if(popup){
+			popup.hide();
+		}
+	}</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="-37" y="113">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="-53" y="115">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Na Prática" x="21" y="7">		<text>* Na Prática:
++ Fundo da Intro:
+- Camada: Arbusto, tronco e folhas.
+. O tronco tem linhas e o fundo tem um gradiente e textura.
+- Camada: Luz do sol.
+- Camada: Árvores na frente.
+- Camada: Árvores no meio.
+- Camada: Árvores no fundo.
+- Camada: Penhasco.
+. Sombras das nuvens passam por cima.
+  Uma mask que faça que a sombra apenas afete esta camada?
+. A base da cachoeira é embaçada.
+  Um efeito aplicado apenas nesta camada?
+- Camada: Céu.
+. As nuvens se deformam.
+. Há um gradiente até branco-amarelado ao fundo.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Imagem" x="25" y="59">		<text>+ Imagem:
+//Local
+	int x;
+		int getX();
+		void setX(int);
+	int y;
+		int getY();
+		void setY(int);
+	setLocation(int,int);
+//Form
+	double width;
+		int getWidth();
+		int getScaledWidth();
+	double height;
+		int getHeight();
+		int getScaledHeight();
+	void setSize(int,int);
+//Camadas
+	List&lt;Camada&gt; camadas;
+		List&lt;Camada&gt; getCamadas();
+		boolean addCamada(Camada);
+		boolean delCamada(Camada);
+//Link
+	File link;
+		File getLink();
+		void setLink(File);
+//Print;
+	Image print;		//Imagem que é alterada somente quando necessário
+		Image getPrint();
+//Var Globais
+	int DEFAULT_WIDTH;
+	int DEFAULT_HEIGHT;
+//Main
+	Imagem(File);
+//Redraw
+	updatePrint();
+//Draw
+	void draw(Graphics2D);
+</text>	</mod>	<mod border="0" color="999999" icons="" title="Cores" x="-32" y="-3">		<text>+ Cores:
+- A janela mostra o nome da paleta sendo usada.
+- A seleção de cores é uma esfera, em um lado há a tendência para o preto, e no outro lado a tendência para o branco, as cores sendo mais vibrantes no equador.
+. Ou um círculo com o centro branco e a borda preta(Ou estica a paleta preta demais?).
+. Ou um cilindro com o clássico círculo de cores, mas variando em brilho.
+- Permite mudar a cor:
+. Pode ser escolhida em abas a sua forma de representação.
+. RGB(Red, Green, e Blue).
+  Tem um equivalente em Hex.
+  Popularmente usado.
+. HSV(Hue, Saturation, e Value).
+  Ideal para tornar a cor mais fraca ou mais escura.
+. HSL(Hue, Saturation, e Lightness).
+  Igual ao HSV, mas variando para o branco.
+. CMYK(Cyan, Magenta, Yellow, e Key).
+  Usado para impressoras.</text>	</mod>	<mod border="0" color="999999" icons="" title="Cores" x="-11" y="63">		<text>+ Cores:
+- É extended de Interface.
+- Vars:
+. Botao ...;</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Ancora" x="29" y="74">		<text>+ Ancora:
+//Side
+	enum Side{
+		NONE, TOP, RIGHT, BOTTOM, LEFT;
+		boolean is(Side...);
+		enum Face{
+			ALIGNED, INTERNAL, EXTERNAL;
+			boolean is(Side.Face...);
+		}
+	}
+	Side side;
+		Side getSide();
+	Face face;
+		Side.Face getFace();
+	void setSide(Side,Side.Face);
+	boolean isAnchored();
+//Borda(Pai)
+	Borda borda;
+		Borda getBorda();
+//Janela Ancorada
+	Window janelaAncorada;
+		Window getJanelaAncorada();
+		void setjanelaAncorada();
+			ComponentAdapter seeker;	//Ativa com o move ou resize da janelaAncorada
+//Main
+	Ancora(Borda);
+	Ancora(Borda,Window,Side,Face);
+//Local da Âncora
+	int getLocal();	//Retorna valor que a janela ancorada limita</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="-30" y="113">		<text>+ LEFT:
+	setState(INACTIVE);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="-71" y="96">		<text>+ LEFT:
+	setState(ACTIVE);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="-41" y="106">		<text>+ LEFT:
+	setState(HOVERED);
+	click();</text>	</mod>	<mod border="0" color="FFFF00" icons="" title="Popup" x="-45" y="71">		<text>+ Popup:
+</text>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="main" x="17" y="29">		<text/>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="image" x="38" y="29">		<text/>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="design" x="-7" y="29">		<text/>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="element" x="-17" y="34">		<text/>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="window" x="3" y="34">		<text/>	</mod>	<mod border="0" color="93E4FF" icons="" title="Atalhos" x="11" y="-14">		<text>+ Atalhos:&#13;
+- key_type_[up|right|down|left]:&#13;
+. Move o cursor por píxels para maior precisão.&#13;
+. key_down_ctrl + key_type_[up|right|down|left]:&#13;
+  Move por uma distância maior.&#13;
+- key_down_delete:&#13;
+. Deleta as seleções.&#13;
+- key_down_escape:&#13;
+. Deseleciona.&#13;
+- Função das teclas de modificação:&#13;
+. A tecla shift lida com a ordem.&#13;
+  Uma forma tem sua forma estática, um ponto se adere à grade, etc.&#13;
+  Lida com grupos.&#13;
+. A tecla ctrl lida com o controle.&#13;
+  Uma área é adicionada sem perder a anterior, um ponto é adicionado a uma linha, etc.&#13;
+  Lida com ações.&#13;
+. A tecla alt lida com alterações.&#13;
+  O comportamento de uma ferramenta muda, uma função altera globalmente, etc.&#13;
+  Lida com comportamentos.&#13;
+- Ao ativar um Toggle na Janela de Configurações, é ativado o modo de configuração de atalhos.&#13;
+. Tudo se torna bloqueado, apenas esta opção permanecendo ativada.&#13;
+. Os Labels ao lado dos Itens dos Menus se tornam Buttons.&#13;
+  Se clicados, abrem uma Janela com um TextField e um Button de confirmação e um de cancelar.&#13;
+  O TextField recebe as teclas e as exibe.&#13;
+  Caso o atalho já houver sido usado por outro Item presente na Janela de Opções, ele é destacado(Do mesmo jeito que o hover do mouse) e um alerta é dado.&#13;
+- Tipos:&#13;
+. Junção de telas: F + G.&#13;
+. Múltiplas teclas pressionadas em sequência: A, A, X.&#13;
+. Múltiplos atalhos diferentes: O | V.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Opções" x="-84" y="-39">		<text>* Opções:&#13;
+&#13;
++ (Grupo)Modo de seleção:&#13;
+- (Radio)"Substituir".&#13;
+. Apaga a área anterior e começa outra.&#13;
+- (Radio)"Adicionar".&#13;
+. Une a área com as áreas anteriores.&#13;
+- (Radio)"Subtrair".&#13;
+. Remove a área das áreas anteriores.&#13;
+- (Radio)"Interceccionar".&#13;
+. Seleciona uma nova área, criada com a intercecção das anteriores.&#13;
+- (Radio)"Inverter".&#13;
+. Seleciona uma nova área, inversão da área abaixo.&#13;
+&#13;
++ (Menu Grande)Forma:&#13;
+- (Item)"Retângulo".&#13;
+- (Item)"Círculo".&#13;
+- (Item)Etc, incluindo todas as formas salvas.&#13;
+&#13;
++ (Menu)Área:&#13;
+- (Item)"Normal".&#13;
+. A área da seleção varia com o ponto inicial e o mouse.&#13;
+- (Item)"Proporção fixa".&#13;
+. A área tem uma proporção fixa.&#13;
+. Adiciona:&#13;
+  (Label)"Largura:" e (TextField)Valor.&#13;
+  (Button)Trocar.&#13;
+  (Label)"Altura:" e (TextField)Valor.&#13;
+- (Item)"Tamanho fixo".&#13;
+. A área tem um tamanho fixo.&#13;
+. Adiciona:&#13;
+  (Label)"Largura:" e (TextField)Valor.&#13;
+  (Button)Trocar.&#13;
+  (Label)"Altura:" e (TextField)Valor.&#13;
+&#13;
++ (Menu)Qualidade de seleção:&#13;
+- (Item)"Qualidade de seleção pixelizada".&#13;
+- (Item)"Qualidade de seleção antialised".&#13;
+&#13;
+&#13;
+- Modos de seleção:&#13;
+. Seleção com área retângular.&#13;
+  Seleciona aqueles dentro de um retângulo feito.&#13;
+. Seleção com laço.&#13;
+  Seleciona aqueles dentro de um ponto inicial e um trajeto criado.&#13;
+. Seleção com varinha mágica.&#13;
+  Seleciona aqueles que tiverem a mesma cor.&#13;
+- Selecionar apenas a camada atual.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-84" y="-41">		<text>+ Ações:
+- Vetorial:
+. Seleciona Pontos, Linhas, ou Formas.
+- Rascal:
+. Seleciona uma área.
+- Linhas selecionadas:
+. Tem uma linha no_antialiased azul no meio.
+. Tem seus Pontos em vermelho.
+  Se hover, ficam ligeiramente maiores. 
+- A seleção ocorre apenas na camada atual.
+. Mas isso pode ser configurado para ser em todas juntas.
+
+- key_down_alt: Seleciona vetores.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-47" y="-35">		<text>+ Ações:
+- Move a seleção.
+- Pode-se girar a seleção de acordo com um ponto central.
+- Pode-se distorcer a imagem, criando perspectiva.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-47" y="-30">		<text>+ Ações:
+- Arrasta a tela.
+- mouse_middle_drag: Arrasta a tela.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-46" y="-24">		<text>+ Ações:
+- Aproxima ou afasta a Tela de Edição.
+- Junto com o mouse_middle_drag, é excelente.
+
++ Aproximar tela:
+- mouse_down_left:
+	. Um + indica o local pressionado.
+	  Um pequeno sinal + no canto indica a ação.
+	  O cursor é uma lupa com +.
+- mouse_left_drag:
+	. Aproxima a tela conforme a distância do cursor do +.
+	. Caso o cursor passe perto do +, a tela passa a se afastar conforme a sua distância.
+	  O sinal muda para -.
+	  O cursor vira uma lupa com -.
+
+- Afastar tela:
+- mouse_down_right:
+	. Um + indica o local pressionado.
+	  Um pequeno sinal - no canto indica a ação.
+	  O cursor é uma lupa com -.
+- mouse_right_drag:
+	. Afasta a tela conforme a distância do cursor do +.
+	. Caso o cursor passe perto do +, a tela passa a se aproximar conforme a sua distância.
+	  O sinal muda para +.
+	  O cursor vira uma lupa com +.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-49" y="-2">		<text>* Ações:&#13;
+- Permite desenhar Linhas e Pontos.&#13;
+- A nova Linha tem a cor que estiver no Cores.&#13;
+. Usar o mouse_right também funciona, usando a cor secundária.&#13;
+- Todos os Pontos e Linhas SELECTED não causam diferença.&#13;
+&#13;
++ Desenhar Linha:&#13;
+- Utiliza down,drag,up.&#13;
+- mouse_down_left:&#13;
+	. Um Ponto é criado, o começo de uma nova Linha.&#13;
+	. A nova Linha é UNSELECTED, mostrando apenas sua forma final.&#13;
+- mouse_left_drag:&#13;
+	. A nova Linha é desenhada.&#13;
+- mouse_left_up:&#13;
+	. A nova Linha é extendida com novos Pontos, a aproximando do desenho.&#13;
+	. A nova Linha é SELECTED.&#13;
+	. Finaliza a criação de Linha.&#13;
+&#13;
++ Desenhar Linha conectada:&#13;
+- Utiliza ctrl+down,drag,up.&#13;
+- key_down_ctrl:&#13;
+	. Todos os Pontos e Linhas são HIGHLIGHTED, aparecendo.&#13;
+- key_down_ctrl + mouse_move(Ponto):&#13;
+	. O Ponto é HOVERED.&#13;
+- key_down_ctrl + mouse_move(Linha):&#13;
+	. O Linha é HOVERED.&#13;
+- key_down_ctrl + mouse_down_left(Ponto):&#13;
+	. O Ponto é o começo de uma nova Linha.&#13;
+	. A nova Linha é UNSELECTED, mostrando apenas sua forma final.&#13;
+- key_down_ctrl + mouse_down_left(Linha):&#13;
+	. Um Ponto é criado na Linha, o começo de uma nova Linha.&#13;
+	. A nova Linha é UNSELECTED, mostrando apenas sua forma final.&#13;
+- mouse_drag_left:&#13;
+	. A nova Linha é desenhada.&#13;
+- mouse_left_up:&#13;
+	. A nova Linha é extendida com novos Pontos, a aproximando do desenho.&#13;
+	. A nova Linha é SELECTED.&#13;
+	. Finaliza a criação de Linha.&#13;
+&#13;
++ Desenhar continuação de Linha:&#13;
+- Utiliza ctrl+alt+move,ctrl+alt+down,drag,up.&#13;
+- key_down_ctrl:&#13;
+	. Todos os Pontos e Linhas são HIGHLIGHTED.&#13;
+- key_down_ctrl + key_down_alt + mouse_move(Ponto):&#13;
+	. O Ponto é HOVERED.&#13;
+	. A Linha é HOVERED.&#13;
+	  O Ponto possúi dois lados, dividido no meio do ponto e alinhado com a Linha.&#13;
+	  A Linha no lado escolhido não é HOVERED.&#13;
+- key_down_ctrl + key_down_alt + mouse_move(Linha):&#13;
+	. A Linha é HOVERED.&#13;
+	  Ela possúi dois lados, dividido no meio entre dois Pontos.&#13;
+	  A Linha no lado escolhido não é HOVERED além do local do cursor.&#13;
+- key_down_ctrl + key_down_alt + mouse_down_left(Ponto):&#13;
+	. O Ponto é o começo da continuação da Linha.&#13;
+	. Se o lado escolhido não existir, ser uma ponta, então este Ponto é o começo de uma nova Linha.&#13;
+	. A nova Linha é UNSELECTED, mostrando apenas sua forma final.&#13;
+- key_down_ctrl + key_down_alt + mouse_down_left(Linha):&#13;
+	. Um Ponto é criado na Linha, o começo da continuação da Linha.&#13;
+	. A nova Linha é UNSELECTED, mostrando apenas sua forma final.&#13;
+- mouse_drag_left:&#13;
+	. A nova Linha é desenhada.&#13;
+- mouse_left_up:&#13;
+	. A nova Linha é extendida com novos Pontos, a aproximando do desenho.&#13;
+	. A nova Linha é SELECTED.&#13;
+	. Finaliza a criação de Linha.&#13;
+&#13;
++ Extras:&#13;
+- mouse_wheel_scroll:&#13;
+	. Muda o tamanho dos Pontos a serem criados.&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-49" y="0">		<text>* Opções:&#13;
+&#13;
++ (Label)"Largura da ponta: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[[0-14,+1],[15-100,+5]]".&#13;
++ (Label)" x ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"0.1".&#13;
+- (Item)"1".&#13;
+- (Item)"10".&#13;
+&#13;
++ (Label)"Precisão: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[[0-14,+1],[15-100,+5]]".&#13;
+&#13;
++ (Toggle)"Posição alinhada à grade". Atalho sendo "Shift".&#13;
+- O alinha na vertical ou horizontal.&#13;
+&#13;
++ (Toggle)"Conectar a Linhas". Atalho sendo "Ctrl".&#13;
+&#13;
++ (Toggle)"Conectar extendendo as Linhas". Atalho sendo "Ctrl + Alt".&#13;
+- Extende a função de ctrl.&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-69" y="15">		<text>+ Ações:
+- Permite apagar vetores.
+- Se uma Linha tiver todos os seus Pontos pertencentes a outra Linha, ela é deletada.
+- Caso haja SELECTED, afeta somente eles.
+
++ Apagar:
+- Utiliza down|drag.
+- mouse_down_left(Ponto):
+	. A deleta apenas se ele passar além de outro na Linha, sua existência não sendo mais necessária, o outro Ponto sendo empurrado.
+- mouse_down_left(Linha):
+	. Se apagar de uma ponta, empurra o Ponto nela, parecendo a encolher.
+	. Se apagar do meio, a Linha é dividida.
+- mouse_down_left(Forma):
+	. Simplesmente a deleta.
+- mouse_drag_left:
+	. Executa o mesmo que down, mas várias vezes.
+
++ Apagar inteiros:
+- Utiliza shift+down|shift+drag.
+- key_down_shift + mouse_down_left(Ponto):
+	. Simplesmente o deleta.
+- key_down_shift + mouse_down_left(Linha):
+	. Simplesmente a deleta toda.
+- key_down_shift + mouse_down_left(Forma):
+	. Simplesmente a deleta.
+- key_down_shift + mouse_drag_left:
+	. Executa o mesmo que down, mas várias vezes.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-49" y="13">		<text>* Ações:
+- Muda o tamanho de um Ponto.
+- O mouse_right executa o inverso do mouse_left.
+- Caso haja SELECTED, afeta somente eles.
+
++ Mudar grossura de Pontos e Linhas:
+- Utiliza down+drag+up.
+- mouse_move(Ponto):
+	. O Ponto é HIGHLIGHTED.
+- mouse_move(Linha):
+	. A Linha é HIGHLIGHTED.
+- mouse_down_left(Ponto):
+	. O cursor é uma bomba com +.
+	. Um + surge no meio do Ponto.
+- mouse_down_left(Linha):
+	. O cursor é uma bomba com +.
+	. Um + surge na Linha.
+- mouse_left_drag(Ponto):
+	. Aumenta a grossura do Ponto conforme a distância do cursor dele.
+	. Caso o cursor passe perto do Ponto, ele passa a diminuir conforme a sua distância.
+	  O cursor vira uma bomba com -.
+- mouse_left_drag(Linha):
+	. Aumenta a grossura de todas os Pontos da Linha conforme a distância do cursor do local pressionado nela.
+	. Caso o cursor passe perto do local, ele passa a diminuir conforme a sua distância.
+	  O cursor vira uma bomba com -.
+- mouse_up_left:
+	. O + desaparece.
+	. O cursor é uma bomba.
+
++ Mudar grossura de Linha em gradiente:
+- Utiliza shift+down+drag+up.
+- mouse_move(Ponto):
+	. O Ponto é HIGHLIGHTED.
+- key_down_shift + mouse_down_left(Ponto):
+	. O cursor é uma bomba com +.
+	. Um + surge no meio do Ponto.
+- key_down_shift + mouse_left_drag:
+	. Arrasta uma seta.
+	. Um Ponto abaixo é HIGHLIGHTED, contanto que esteja na mesma Linha.
+- key_down_shift + mouse_up_left(Ponto):
+	. Todos os Pontos variam de grossura, criando um gradiente suave entre os Pontos selecionados.
+- mouse_up_left:
+	. O + desaparece.
+	. O cursor é uma bomba.
+
++ Mudar grossura de Pontos e Linhas selecionadas:
+- Utiliza ctrl+down+drag+up.
+- mouse_move(Ponto):
+	. O Ponto é HIGHLIGHTED.
+- mouse_move(Linha):
+	. A Linha é HIGHLIGHTED.
+- key_down_ctrl + mouse_down_left(Ponto):
+	. O cursor é uma bomba com +.
+	. Um + surge no meio do Ponto.
+- key_down_ctrl + mouse_down_left(Linha):
+	. O cursor é uma bomba com +.
+	. Um + surge na Linha.
+- key_down_ctrl + mouse_left_drag(Ponto):
+	. Aumenta o tamanho do Ponto conforme a distância do cursor dele junto com todos os outros Pontos selecionados.
+	. Caso o cursor passe perto do Ponto, ele passa a diminuir conforme a sua distância.
+	  O cursor vira uma bomba com -.
+- key_down_ctrl + mouse_drag_left(Linha):
+	. Aumenta o tamanho de todas os Pontos da Linha conforme a distância do cursor do local pressionado nela junto com todos os outros Pontos selecionados.
+	. Caso o cursor passe perto do local, ele passa a diminuir conforme a sua distância.
+	  O cursor vira uma bomba com -.
+- mouse_up_left:
+	. O + desaparece.
+	. O cursor é uma bomba.
+
++ Mudar grossura de Linha em gradiente:
+- Utiliza ctrl+shift+down+drag+up.
+- mouse_move(Ponto):
+	. O Ponto é HIGHLIGHTED.
+- key_down_ctrl + key_down_shift + mouse_down_left(Ponto):
+	. Tudo é HIGHLIGHTED.
+	. O cursor é uma bomba com +.
+	. Um + surge no meio do Ponto.
+- key_down_ctrl + key_down_shift + mouse_drag_left:
+	. Arrasta uma seta.
+	. Um Ponto abaixo é HOVERED, contanto que esteja na mesma Linha.
+- key_down_ctrl + key_down_shift + mouse_up_left(Ponto):
+	. Todos os Pontos selecionados variam de grossura, criando um gradiente suave de acordo com os Pontos escolhidos.
+- mouse_up_left:
+	. O + desaparece.
+	. O cursor é uma bomba.
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-49" y="8">		<text>* Ações:
+- Permite editar um Ponto, Linha, ou Forma selecionados.
+- Caso haja SELECTED, afeta somente eles.
+
++ Início:
+- Todos os Pontos e Linhas são imediatamente HIGHLIGHTED.
+. Caso haja SELECTED, nada muda.
+
++ Mudar local de Ponto ou adicionar Ponto:
+- Utiliza move,down,drag.
+- mouse_move(Ponto):
+	. O Ponto é HOVERED.
+- mouse_move(Linha):
+	. O Linha é HOVERED.
+- mouse_down_left(Ponto):
+	. O Ponto é ACTIVED.
+- mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED.
+- mouse_drag_left:
+	. O Ponto é arrastado com o mouse.
+
++ Mudar local de Linha:
+- Utiliza shift+move,shift+down,drag.
+- key_down_shift + mouse_move(Ponto):
+	. O Ponto é HOVERED.
+- key_down_shift + mouse_move(Linha):
+	. O Linha é HOVERED.
+- key_down_shift + mouse_down_left(Ponto):
+	. Tudo é UNSELECTED.
+	. O Ponto é ACTIVED.
+- key_down_shift + mouse_down_left(Linha):
+	. Tudo é UNSELECTED.
+	. Todos os Pontos da Linha e ela são ACTIVED.
++ mouse_drag_left:
+	. Os Pontos são arrastados com o mouse.
+
++ Mudar Pontos e Linhas selecionados de lugar:
+- Utiliza ctrl+down+drag.
+- key_down_ctrl + mouse_down_left(Ponto):
+	. Os Pontos são ACTIVED junto com todos os outros selecionados.
+- key_down_ctrl + mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED junto com todos os outros selecionados.
+- mouse_drag_left:
+	. Os Pontos são arrastados com o mouse.
+
++ Mudar Linha, Pontos e Linhas selecionados de lugar:
+- Utiliza ctrl+shift+down+drag.
+- key_down_ctrl + key_down_shift + mouse_down_left(Ponto):
+	. Os Pontos são ACTIVED junto com todos os outros selecionados.
+- key_down_ctrl + key_down_shift + mouse_down_left(Linha):
+	. Os Pontos da Linha são ACTIVED juntos com todos os outros selecionados.
+- mouse_drag_left:
+	. Os Pontos são arrastados com o mouse.
+
++ Mudar local de Ponto e juntar:
+- Utiliza move,alt+down,alt+drag,alt+up.
+- mouse_move(Ponto):
+	. O Ponto é HOVERED.
+- mouse_move(Linha):
+	. O Linha é HOVERED.
+- key_down_alt + mouse_down_left(Ponto):
+	. O Ponto é ACTIVED.
+- key_down_alt + mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED.
+- key_down_alt + mouse_drag_left:
+	. O Ponto é arrastado com o mouse.
+- key_down_alt + mouse_drag_left(Ponto):
+	. O Ponto é HOVERED.
+- key_down_alt + mouse_drag_left(Linha):
+	. A Linha é HOVERED.
+- key_down_alt + mouse_up_left(Ponto):
+	. O Ponto recebe as Linhas do outro, adicionando às suas próprias.
+	  O outro Ponto é deletado.
+- key_down_alt + mouse_up_left(Linha):
+	. Um Ponto é criado na Linha.
+	. O Ponto recebe as Linhas do outro, adicionando às suas próprias.
+	  O outro Ponto é deletado.
+
++ Extras:
+- key_type_[up|right|down|left]:
+	. Move os selecionados.
+- key_down_ctrl + key_type_[up|right|down|left]:
+	. Move bastante os selecionados.
+</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-92" y="-28">		<text>+ Ações:
+- Apaga Pontos, Linhas e Formas.
+. Também funciona como uma borracha normal no rascal.
+- Apaga Pontos se hover neles.
+- Apaga Linhas se hover nelas.
+- Apaga Formas se hover nelas.</text>	</mod>	<mod border="0" color="EFEFEF" icons="" title="Ações" x="-44" y="-12">		<text>+ Ações:
+- Permite desenhar uma linha estilizada.
+- O lápiz é um pincel com largura mínima e textura sólida.</text>	</mod>	<mod border="0" color="EFEFEF" icons="" title="Opções" x="-44" y="-10">		<text>+ Opções:
+- Ponta.
+. Uma ponta pode ser um círculo, uma elipse, ou um retângulo.
+. Pode-se ter vários formatos e tamanhos diferentes.
+- Pode ter várias texturas customizáveis.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-94" y="-31">		<text>+ Ações:
+- Adiciona uma cor a uma Forma ou Linha.
+. Também funciona como um balde normal no rascal.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-60" y="-42">		<text>+ Ações:
+- Pega a cor de uma Forma ou Linha.
+. Também funciona como um amostrador normal no rascal.
+- A cor coletada de uma Linha ou Forma com fundo de imagem é transparente.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Opções" x="-60" y="-40">		<text>+ Opções:&#13;
+- Após utilizar: Mudar para ou manter.&#13;
+- Amostrar cor da imagem, camada, ou tela.&#13;
+. Na tela, tudo é coberto por uma tela invisível que recebe o local para exemplar.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-97" y="-20">		<text>+ Ações:
+- Adicionar um texto.
+. Também funciona como um texto normal no rascal.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-87" y="-11">		<text>+ Ações:
+- Adiciona uma textura a uma Forma ou Linha.
+- O fundo pode ser esticado(Igual ao do Build3D).</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-82" y="-6">		<text>+ Ações:
+- Adiciona uma imagem de fundo a uma Forma/Linha.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-90" y="-25">		<text>+ Ações:
+- Adiciona um fundo gradiente a uma Forma/Linha.
+- Pode ter vários pontos, criando uma forma?
+- Cria uma linha reta.
+. Cada ponto nela indica uma cor.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Ações" x="-97" y="-17">		<text>+ Ações:
+- Adiciona Linhas ou Formas ou Formas e Linhas em formas geométricas prontas.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Opções" x="-87" y="-9">		<text>+ Opções:&#13;
+- Texturas:&#13;
+. Normal:&#13;
+  A grossura e posição dos pontos variam ligeiramente do original.&#13;
+  Imita a linha feita manualmente.&#13;
+. Artificial:&#13;
+  A grossura e posição não são alterados.&#13;
+  Dão um ar de artificial e perfeito.&#13;
+. Pixel:&#13;
+  Composto por píxeis.&#13;
+  Píxel art.&#13;
+. Handrawing:&#13;
+  A grossura e posição variam imensamente, a ponto das Formas não coincidírem com eles.&#13;
+  Imita uma arte infantil.&#13;
+</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Opções" x="-97" y="-15">		<text>+ Opções:&#13;
+- Tem uma interface onde pode criar novas formas customizadas que podem ser usadas depois.&#13;
+. Pode-se adicionar uma camada inteira se quiser.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Laço" x="-66" y="-37">		<text>+ Laço:</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Varinha Mágica" x="-83" y="-36">		<text>+ Varinha Mágica:</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Criação de Ferramentas" x="23" y="-9">		<text>+ Criação de Ferramentas:
+- Todas as ferramentas possuem uma barra de opções.
+. Os itens na barra podem ser button, toggle, slide, menu, radio, etc.
+- De acordo com o valor dos itens das opções, a ação é diferente.
+- Uma série de comandos executa uma transformação na imagem.
+- Podem-se ter vários pontos de cursor, seus locais definidos por cliques.
+. Criação de Linhas, Gradientes, Formas Geométricas, etc.
+- Editor de icones:
+. Pode mostrar o resultado em vetor ou imagem de 32x32 para os cursores e 16x16 para os ícones.
+. O limite de elementos é de 32*32=1024, para criar o icone.
+. Há um ponto especial que se adere apenas à grade. É a ponta do cursor.
+- Diferentes ferramentas podem compartilhar as mesmas opções.
+. Dessa form, pincéis e canetas podem ter o mesmo tamanho da ponta, compartilhando a opção de tamanho.
+- No canto, há um botão que abre um texto que não pode ser editado.
+. O texto é do autor, e dele apenas.
+. Há também um botão de reset das opções de volta ao original.
+. O que impede que alguém copie tudo?</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Itens" x="29" y="-12">		<text>* Itens:&#13;
+&#13;
++ Label:&#13;
+- Um texto.&#13;
+&#13;
++ Icon:&#13;
+- Um ícone.&#13;
+&#13;
++ Menu:&#13;
+- Um botão com uma seta. Um item dentro sofre suas modificações. Ao ativar, abre um Popup abaixo.&#13;
+- O mouse_wheel | mouse_click muda seu valor.&#13;
+&#13;
++ Popup:&#13;
+- Uma janela que pode ter itens.&#13;
+- Pode ser chamada pelo Menu.&#13;
+&#13;
++ Button:&#13;
+- Um botão que executa uma ação.&#13;
+- Pode possuir um Label como texto.&#13;
+- Pode possuir um Icon como ícone.&#13;
+&#13;
++ Item:&#13;
+- Um Button que pertence a um Menu.&#13;
+&#13;
++ Toggle:&#13;
+- Um botão que pode ser ativado ou desativado.&#13;
+&#13;
++ Slide:&#13;
+- Uma seta corre por um trilho, mudando um valor.&#13;
+&#13;
++ TextField:&#13;
+- Um campo de texto.&#13;
+&#13;
++ Numeric:&#13;
+- Dois botões que mudam um valor.&#13;
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Combinações" x="35" y="-12">		<text>* Combinações:&#13;
+&#13;
++ NumericTextField:&#13;
+- Um TextField que aceita apenas números decimais.&#13;
+&#13;
++ HexaNumericTextField:&#13;
+- Um TextField que aceita apenas números hexadecimais.&#13;
+&#13;
++ Menu(Button)-&gt;Popup(Button...):&#13;
+- Um Menu com uma Label, texto de Button.&#13;
+&#13;
++ Menu(Numeric(NumericTextField)):&#13;
+- Um Menu que possúi dentro um Numeric, que tem um NumericTextField.&#13;
+&#13;
++ Slide2S:&#13;
+- Duas setas correm por um trilho, mudando dois valores.&#13;
+- São duas setas partidas no meio.&#13;
+- Uma não pode passar acima da outra, sendo parada por ela.&#13;
+- Um pequeno botão fica acima delas. Ele pode ser usado para arrastar as duas ao mesmo tempo.&#13;
+. Ao pressionar, o botão das duas setas são pressionadas.&#13;
+&#13;
++ Slide2SS:&#13;
+- Igual ao Slide2S, mas as setas são independentes, podendo passa uma por cima da outra.&#13;
+- São duas setas inteiras.&#13;
+&#13;
++ Slide3S:&#13;
+- Igual ao Slide2S, mas são 3 setas, a do meio parecendo um retângulo.&#13;
+&#13;
++ Slide2D:&#13;
+- Um plano onde um pode definir dois valores.&#13;
+&#13;
++ Slide2D2S:&#13;
+- Igual ao Slide2D, mas com duas setas.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Configurações" x="-1" y="1">		<text>+ Configurações:
+- Cores padrão.
+. As cores do primário e secundário.
+- Posições e âncoras das janelas.
+- Modos são salvos separadamente.
+- Paletas de cores são salvos separadamente.
+- Atalhos.
+- Nível de transparência das janelas.
+- Cores dos Pontos e Linhas quando destacados ou selecionados.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Pano" x="-61" y="6">		<text>+ Caneta Colorida:
+- Icone:
+. Um retângulo com a parte debaixo curvada.
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-67" y="5">		<text>+ Ações:
+- Permite adicionar Formas.
+- A nova Forma tem a cor que estiver no Cores.
+. Usar o mouse_right também funciona, usando a cor secundária.
+- Todos os Pontos e Linhas SELECTED não causam diferença.
+
+- mouse_down_left:
+	. Adiciona uma Forma que é cercada pelas Linhas.
+	. Funciona somente em locais cercados por Linhas.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Caneta Colorida" x="-68" y="1">		<text>+ Caneta Colorida:
+- Icone:
+. Uma caneta colorida.
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-74" y="0">		<text>+ Ações:
+- Permite mudar a cor de um Ponto, Linha, ou Forma.
+- Usar o mouse_right também funciona, usando a cor secundária.
+- Um gradiente é criado entre os Pontos? Ou uma mudança brusca?
+
++ Mudar cor de Ponto, Linha, ou Forma:
+- mouse_click_left(Linha):
+	. Transfere a cor de Cores para a Linha.
+- mouse_click_left(Forma):
+	. Transfere a cor de Cores para a Forma.
+
++ Mudar cor de Pontos, Linhas, ou Formas selecionados:
+- mouse_click_left(Linha):
+	. Transfere a cor de Cores para a Linha e todos os selecionados.
+- mouse_click_left(Forma):
+	. Transfere a cor de Cores para a Forma e todos os selecionados.
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Linha" x="23" y="-25">		<text>+ Linha:
+- O ponto de encontro de duas Linhas é onde definir o tipo de canto é importante.
+. Pode ser reta ou curvada.
+- As pontas podem ser customizadas.
+- Segmentos que existem dentro de outras Linhas não são desenhadas, mas sua curva é presente.
+. Ótimo para curvar o início de uma Linha sem sobrepor um pedaço da outra.
+. Sua estrutura é indicada por um tracejado.
+- A linha que exibe sua estrutura tem a cor invertida, se destacando.
+- As Linhas destacadas são menos evidentes que as Linhas selecionadas.
+. Os destacados são linhas com bordas finas.
+. Os selecionados são linhas com bordas grossas.
+- States:
+	. UNSELECTED:		Não há desenho.
+	. HIGHLIGHTED:	Uma linha de borda fina, de cor invertida as dos Pontos.
+	. SELECTED:		Uma linha de borda grossa, de cor invertida as dos Pontos.
+- States alternativo:
+	. UNSELECTED:		Não há desenho.
+	. HIGHLIGHTED:	Uma linha azul fina.
+	. HOVERED:			Uma linha azul grossa. Um círculo de cor invertida ao do fundo acompanha o cursor.
+	. ACTIVED:			Uma linha vermelha.
+	. SELECTED:		Uma linha vermelha grossa.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Tachinha" x="-55" y="4">		<text>+ Tachinha:&#13;
+- Icone:&#13;
+. Uma tachinha vermelha.&#13;
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-48" y="3">		<text>* Ações:
+- Permite adicionar Pontos e Linhas.
+- A nova Linha tem a cor que estiver no Cores.
+. Usar o mouse_right também funciona, usando a cor secundária.
+- Se uma Linha tiver todos os seus Pontos pertencentes a outra Linha, ela é deletada.
+- Todos os Pontos e Linhas SELECTED não causam diferença.
+
++ Adicionar Linha:
+- Utiliza click.
+- mouse_left_click:
+	. Um Ponto é criado, o começo de uma nova Linha.
+	. Mais cliques, mais Pontos expandindo a nova Linha.
+	. A nova Linha é HIGHLIGHTED.
+- mouse_move:
+	. Uma linha pixelizada e círculos pixelizados indicam a estrutura da Linha.
+- key_type_esc | key_type_enter:
+	. A nova Linha é SELECTED.
+	. Finaliza a criação de Linha.
+
++ Adicionar Linha conectada:
+- Utiliza ctrl+click.
+- É possível selecionar vários Pontos de uma mesma Linha, o que permite que se faça uma nova Linha que começe se curvando.
+- key_down_ctrl:
+	. Todos os Pontos e Linhas são HIGHLIGHTED.
+- key_down_ctrl + mouse_move(Ponto):
+	. O Ponto é HOVERED.
+- key_down_ctrl + mouse_move(Linha):
+	. O Linha é HOVERED.
+- key_down_ctrl + mouse_left_click(Ponto):
+	. O Ponto é o começo de uma nova Linha.
+- key_down_ctrl + mouse_left_click(Linha):
+	. Um Ponto é criado na Linha, o começo de uma nova Linha.
+- key_down_ctrl + mouse_left_click:
+	. Mais cliques, mais Pontos expandindo a nova Linha.
+- mouse_move:
+	. Uma linha pixelizada e círculos pixelizados indicam a estrutura da Linha.
+- key_type_esc | key_type_enter:
+	. A nova Linha é SELECTED.
+	. Finaliza a criação de Linha.
+
++ Adicionar continuação de Linha:
+- Utiliza ctrl+alt+click.
+- key_down_ctrl:
+	. Todos os Pontos e Linhas são HIGHLIGHTED.
+- key_down_ctrl + key_down_alt + mouse_move(Ponto):
+	. O Ponto é HOVERED.
+	. A Linha é HOVERED.
+	  O Ponto possúi dois lados, dividido no meio do ponto e alinhado com a Linha.
+	  A Linha no lado escolhido não é HOVERED.
+- key_down_ctrl + key_down_alt + mouse_move(Linha):
+	. A Linha é HOVERED.
+	  Ela possúi dois lados, dividido no meio entre dois Pontos.
+	  A Linha no lado escolhido não é HOVERED além do local do cursor.
+- key_down_ctrl + key_down_alt + mouse_left_click(Ponto):
+	. O Ponto é o começo da continuação da Linha.
+	. Se o lado escolhido não existir, ser uma ponta, então este Ponto é o começo de uma nova Linha.
+- key_down_ctrl + key_down_alt + mouse_left_click(Linha):
+	. Um Ponto é criado na Linha, o começo da continuação da Linha.
+- key_down_ctrl + key_down_alt + mouse_left_click:
+	. Mais cliques, mais Pontos expandindo a nova Linha.
+- mouse_move:
+	. Uma linha pixelizada e círculos pixelizados indicam a estrutura da Linha.
+- key_type_esc | key_type_enter:
+	. A nova Linha é SELECTED.
+	. Finaliza a criação de Linha.
+
++ Extras:
+- mouse_wheel_scroll:
+	. Muda o tamanho do Ponto a ser criado.
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-48" y="5">		<text>* Opções:&#13;
+&#13;
++ (Label)"Largura da ponta: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[[0-14,+1],[15-100,+5]]".&#13;
++ (Label)" x ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"0.1".&#13;
+- (Item)"1".&#13;
+- (Item)"10".&#13;
+&#13;
++ (Toggle)"Posição aderente à grade". Atalho sendo "Shift".&#13;
+&#13;
++ (Toggle)"Conectar nas Linhas". Atalho sendo "Ctrl".&#13;
+&#13;
++ (Toggle)"Conectar extendendo as Linhas". Atalho sendo "Ctrl + Alt".&#13;
+- Extende a função de ctrl.&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-49" y="15">		<text>* Opções:&#13;
+&#13;
++ (Toggle)"Variar entre pontos". Atalho sendo "Shift".&#13;
+- Muda o tamanho de vários Pontos, a partir de duas pontas.&#13;
+&#13;
++ (Toggle)"Afetar todos os selecionados". Atalho sendo "Ctrl".&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-49" y="10">		<text>* Opções:&#13;
+&#13;
++ (Toggle)"Arrastar linha". Atalho sendo "Shift".&#13;
+&#13;
++ (Toggle)"Arrastar todos os selecionados". Atalho sendo "Ctrl".&#13;
+&#13;
++ (Toggle)"Juntar pontos". Atalho sendo "Alt".&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-74" y="2">		<text>* Opções:&#13;
+&#13;
++ (Menu)Valor:&#13;
+- (Item)"Local".&#13;
+- (Item)"Global".&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".&#13;
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-67" y="7">		<text>* Opções:&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-69" y="17">		<text>* Opções:&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Pontos" x="19" y="-22">		<text>+ Ponto:
+- States:
+	. UNSELECTED:		Não há desenho.
+	. HIGHLIGHTED:	Um círculo de borda fina, de cor invertida a do Ponto.
+	. HOVERED:			Um círculo grande de borda fina, de cor invertida a do Ponto. Um outro círculo exibe o tamanho do Ponto.
+	. ACTIVED:			Um círculo sólido pequeno, de cor invertida a do Ponto. Um outro círculo exibe o tamanho do Ponto.
+	. SELECTED:		Um círculo de borda grossa para dentro, de cor invertida a do Ponto.
+- States alternativo:
+	. UNSELECTED:		Não há desenho.
+	. HIGHLIGHTED:	Um quadrado azul com um menor branco dentro.
+	. HOVERED:			Um quadrado grande azul com um menor branco dentro. Um círculo de cor invertida ao do Ponto exibe seu tamanho.
+	. ACTIVED:			Um quadrado vermelho sólido pequeno.
+	. SELECTED:		Um quadrado vermelho com um menor branco dentro.
+- O desenho da estrutura de um Ponto nunca muda de tamanho.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Forma" x="26" y="-22">		<text>+ Forma:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="NORMAL +&#10;Caneta" x="132" y="39">		<text>+ NORMAL+Caneta:
+	setCursor(Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="123" y="39">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="118" y="36">		<text>+ LEFT:&#13;
+- Começa a criar uma Linha.&#13;
+	unSelectAll();&#13;
+	newLinha=new Linha(mouse);&#13;
+	add(newLinha);&#13;
+	mark(newLinha);&#13;
+	setState(WAITING+LEFT+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="88" y="50">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="83" y="50">		<text>+ LEFT:
+- Começa a extender a Linha.
+	//Utiliza um algoritmo para determinar a posição e quantidade dos Pontos.
+	newLinha=getMarked().getFirstLinha();
+	newLinha.extendsSpline(mouse);
+	setState(DRAG+LEFT+Caneta);</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="WAITING +&#10;LEFT +&#10;Caneta" x="97" y="46">		<text>+ WAITING+LEFT+Caneta:
+	setCursor(PRESSED+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="112" y="47">		<text>+ LEFT:&#13;
+	clearMarked();&#13;
+	setState(NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="105" y="47">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="DRAG +&#10;LEFT +&#10;Caneta" x="109" y="83">		<text>+ DRAG+LEFT+Caneta:
+	setCursor(DRAG+Caneta);</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="NORMAL" x="79" y="-2">		<text>+ NORMAL:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Toolbar" x="85" y="-2">		<text>+ Toolbar:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Ferramentas" x="92" y="-2">		<text>+ Ferramentas:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Caneta" x="101" y="-2">		<text>+ Caneta:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="States" x="26" y="-2">		<text>+ States:
+	int state;	//Usado para voltar ao state que o chamar</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="RIGHT" x="117" y="42">		<text>+ RIGHT:
+- Começa a criar uma Linha.
+	unSelectAll();
+	newLinha=new Linha(mouse);
+	add(newLinha);
+	mark(newLinha);
+	setState(WAITING+RIGHT+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="117" y="39">		<text>+ MIDDLE:
+	setState(DRAG_ALL+Caneta,NORMAL+Caneta);</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="DRAG_ALL +&#10;Caneta" x="115" y="63">		<text>+ DRAG_ALL+Caneta:
+- Necessita de [state];
+	setCursor(DRAG_ALL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="100" y="66">		<text>+ MIDDLE:
+	image.setLocal(X,Y);	//Muda o X e Y do tree de acordo com o mouse</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="106" y="66">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="95" y="87">		<text>+ LEFT:
+- Extende a Linha.
+	//Utiliza um algoritmo para determinar a posição e quantidade dos Pontos.
+	newLinha=getMarked().getFirstLinha();
+	newLinha.extendsSpline(mouse);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="100" y="87">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="115" y="84">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="122" y="84">		<text>+ LEFT:&#13;
+	clearMarked();&#13;
+	setState(NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="124" y="63">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="131" y="63">		<text>+ MIDDLE:&#13;
+	setState(state);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_move" x="139" y="42">		<text>+ mouse_move:
+	if(getValue("CaL")=="true")return;
+	ponto=getPonto(mouse);
+	if(ponto){
+		ponto.setState(HOVERED);
+	}else{
+		linha=getLinha(mouse);
+		if(linha){
+			linha.setState(HOVERED);
+		}
+	}</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="RIGHT" x="153" y="58">		<text>+ RIGHT:
+- Começa a extender a Linha.
+	//Utiliza um algoritmo para determinar a posição e quantidade dos Pontos.
+	newLinha=getMarked().getFirstLinha();
+	newLinha.extendsSpline(mouse);
+	setState(DRAG+RIGHT+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="159" y="58">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="DRAG +&#10;RIGHT +&#10;Caneta" x="152" y="85">		<text>+ DRAG+RIGHT+Caneta:
+	setCursor(DRAG+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="RIGHT" x="137" y="89">		<text>+ RIGHT:
+- Extende a Linha.
+	//Utiliza um algoritmo para determinar a posição e quantidade dos Pontos.
+	newLinha=getMarked().getFirstLinha();
+	newLinha.extendsSpline(mouse);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_drag" x="143" y="89">		<text>+ mouse_drag:</text>	</mod>	<mod border="0" color="00FFFF" icons="" title="WAITING +&#10;RIGHT +&#10;Caneta" x="168" y="54">		<text>+ WAITING+RIGHT+Caneta:
+	setCursor(PRESSED+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="159" y="86">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_up" x="176" y="55">		<text>+ mouse_up:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="RIGHT" x="183" y="55">		<text>+ RIGHT:&#13;
+	clearMarked();&#13;
+	setState(NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="RIGHT" x="166" y="86">		<text>+ RIGHT:&#13;
+	clearMarked();&#13;
+	setState(NORMAL+Caneta);</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Comandos" x="29" y="1">		<text>+ Comandos:
+- (A|B):		Obrigatório A ou B.
+- [A|B]:		Opcional A ou B.
+. /create (point|spline|form) x y
+  /create spline /getCursor.x /getCursor.y
+. /</text>	</mod>	<mod border="0" color="A3E7FF" icons="" title="state==NORMAL+Caneta" x="134" y="66">		<text>+ state==NORMAL+Caneta:
+	setState(NORMAL+Caneta);</text>	</mod>	<mod border="0" color="A3E7FF" icons="" title="state==WAITING+LEFT+Caneta" x="134" y="69">		<text>+ state==WAITING+LEFT+Caneta:&#13;
+	setState(WAITING+LEFT+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="82" y="47">		<text>+ MIDDLE:
+	setState(DRAG_ALL+Caneta,WAITING+LEFT+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="88" y="47">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="153" y="55">		<text>+ MIDDLE:
+	setState(DRAG_ALL+Caneta,NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="159" y="55">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="137" y="86">		<text>+ MIDDLE:
+	setState(DRAG_ALL+Caneta,NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="143" y="86">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="MIDDLE" x="94" y="84">		<text>+ MIDDLE:
+	setState(DRAG_ALL+Caneta,NORMAL+Caneta);</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_down" x="100" y="84">		<text>+ mouse_down:</text>	</mod>	<mod border="0" color="A3E7FF" icons="" title="state==DRAG+LEFT+Caneta" x="134" y="72">		<text>+ state==DRAG+LEFT+Caneta:&#13;
+	setState(DRAG+LEFT+Caneta);</text>	</mod>	<mod border="0" color="A3E7FF" icons="" title="state==WAITING+RIGHT+Caneta" x="134" y="75">		<text>+ state==WAITING+RIGHT+Caneta:&#13;
+	setState(WAITING+RIGHT+Caneta);</text>	</mod>	<mod border="0" color="A3E7FF" icons="" title="state==DRAG+RIGHT+Caneta" x="134" y="78">		<text>+ state==DRAG+RIGHT+Caneta:&#13;
+	setState(DRAG+RIGHT+Caneta);</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Chunks" x="29" y="-16">		<text>+ Chunks:
+- Guardam os Pontos e Segmentos que passam por sua área.
+- Seu tamanho varia com o tamanho da imagem, seguindo uma série de tamanhos específicos: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 5096, etc.
+- Cada Linha possúi Segmentos, que podem ser redesenhados, possuindo uma imagem própria.
+. Eles tem um retângulo, criado com os seus pontos mais extremos, que são usados para decidir em qual Chunk ficam.
+. Qualquer outro vetor que intercecciona sua área deve ser redesenhado.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Fita Adesiva" x="-66" y="11">		<text>+ Fita Adesiva:
+- Icone:
+. Uma fita adesiva.
+. O fundo é da cor das camadas vetoriais.</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Ações" x="-72" y="10">		<text>+ Ações:
+- Permite fundir Pontos.
+- Se uma Linha tiver todos os seus Pontos pertencentes a outra Linha, ela é deletada.
+
++ Fundir Pontos:
+- Utiliza down,drag.
+- mouse_down_left(Ponto):
+	. O Ponto é ACTIVED.
+	. Tudo é HIGHLIGHTED.
+- mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED.
+	. Tudo é HIGHLIGHTED.
+- mouse_up_left:
+	. Cancelar: O Ponto volta para seu lugar ou é deletado.
+- mouse_drag_left:
+	. Arrasta uma seta.
+	. Um Ponto abaixo é HOVERED.
+- mouse_up_left(Ponto):
+	. O Ponto recebe as Linhas do outro, adicionando às suas próprias.
+	  O outro Ponto é deletado.
+- mouse_up_left(Linha):
+	. Um Ponto é criado na Linha.
+	. O Ponto recebe as Linhas do outro, adicionando às suas próprias.
+	  O outro Ponto é deletado.
+
++ Fundir Linhas:
+- Utiliza shift+down,drag.
+- key_down_shift + mouse_down_left(Ponto):
+	. O Ponto é ACTIVED.
+	. Tudo é HIGHLIGHTED.
+- mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED.
+	. Tudo é HIGHLIGHTED.
+- mouse_up_left:
+	. Cancelar: O Ponto volta para seu lugar ou é deletado.
+- mouse_drag_left:
+	. Arrasta uma seta.
+	. Um Ponto abaixo é HOVERED, junto com sua Linha.
+- mouse_up_left(Ponto):
+	. No Ponto, as Linhas são fundidas.
+	  O outro Ponto é deletado.
+- mouse_up_left(Linha):
+	. Um Ponto é criado na Linha.
+	. No Ponto, as Linhas são fundidas.
+	  O outro Ponto é deletado.
+
++ Fundir todos os Pontos selecionados:
+- Utiliza ctrl+down,drag.
+- key_down_ctrl + mouse_down_left(Ponto):
+	. Todos os Pontos selecionados são ACTIVED.
+	. Todos os outros são HIGHLIGHTED.
+- key_down_ctrl + mouse_down_left(Linha):
+	. Um Ponto é criado na Linha e ACTIVED junto com todos os selecionados.
+	. Todos os outros são HIGHLIGHTED.
+- mouse_up_left:
+	. Cancelar: Os Pontos voltam para seus lugares ou são deletados.
+	. Tudo é HIGHLIGHTED.
+- key_down_ctrl + mouse_drag_left:
+	. Arrasta uma seta de cada Ponto selecionado.
+	. Um Ponto abaixo é HOVERED.
+- key_down_ctrl + mouse_up_left(Ponto):
+	. O Ponto recebe as Linhas de todos os outros, as adicionando às suas próprias.
+	  Os outros Pontos são deletados.
+- key_down_ctrl + mouse_up_left(Linha):
+	. Um Ponto é criado na Linha.
+	. O Ponto recebe as Linhas de todos os outros, as adicionando às suas próprias.
+	  Os outros Pontos são deletados.
+</text>	</mod>	<mod border="0" color="CBF1FF" icons="" title="Opções" x="-72" y="12">		<text>* Opções:&#13;
+&#13;
++ (Toggle)"Juntar linhas". Atalho sendo "Shift".&#13;
+&#13;
++ (Toggle)"Arrastar todos os selecionados". Atalho sendo "Ctrl".&#13;
+&#13;
++ (Label)"Depois de usar, mudar para: ".&#13;
++ (Menu)Valor:&#13;
+- (Item)"[Lista de Ferramentas]".</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="151" y="92">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="167" y="61">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="107" y="90">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="96" y="53">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="115" y="68">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="mouse_wheel" x="131" y="45">		<text>+ mouse_wheel:
+- Muda a grossura da ponta.
+	caneta.setWidth(W);	//Calcula W conforme a posição do cursor</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="Significados" x="20" y="18">		<text>+ Significados:
+- Tracejado:					Utilizado por.
+- Tracejado Longo:			Utilizado 1 vez por.
+- Tracejado e Pontilhado:	Extensão de .
+- Pontilhado:					Pertencente a.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Texturas" x="14" y="-19">		<text>+ Texturas:&#13;
+- Podem ser definidas como uma imagem que se repete ao longo da forma.&#13;
+. Pode-se definir:&#13;
+. Dispersão na linha, controlando a quantidade.&#13;
+  A interface é a linha na horizontal, as imagens repetindo ao longo dela.&#13;
+. Dispersão para os lados, os espalhando. Perfeito para objetos que se repetem em centenas.&#13;
+  A interface é a linha na horizontal, duas outras linhas mostram o quanto podem variar.&#13;
+  Mais linhas indicam faixas em que podem aparecer as imagens?&#13;
+. Variação da clareza da cor.&#13;
+  Também na opacidade, podendo criar linhas com bordas borradas.&#13;
+. Variação no tamanho. Varia a partir do tamanho variado entre os Pontos.&#13;
+  Um gráfico indica os tamanhos em que varia e as probabilidades de ocorrerem.&#13;
+. Variação na rotação, criando um efeito mais orgânico.&#13;
+  A interface é um círculo, onde uma agulha indica a direção da Linha, e duas outras indicam o limite do ângulo a qual podem variar.&#13;
+  Mais agulhas criam áreas em que podem variar.&#13;
+  A rotação pode variar de acordo com o ângulo da Linha ou com o ângulo da imagem(A agulha principal é travada, virada para cima).&#13;
+. Achatar no x ou y, imitando pincéis achatados.&#13;
+  A interface é um círculo que pode ser deformado.&#13;
+. Variação na posição do fundo?&#13;
+  O fundo pode variar no x e y, se repetindo.&#13;
+- Existe uma textura que define a forma da ponta.&#13;
+. Áreas pretas são opacas e áreas brancas são transparentes.&#13;
+  Sería possível criar uma textura a partir de uma foto, detectando a diferença de cor.&#13;
+- Uma outra textura define a textura em si&#13;
+. Para poder repetir a textura sem uma linha óbvia, pode-se ir em Exibir &gt; Repetir Imagem, onde a imagem repete ao infinito, para fora da tela.&#13;
+- Pode-se incluir várias texturas diferentes, cada uma com uma possibilidade diferente de aparecerem.&#13;
+. Podem seguir uma ordem de aparição ou serem aleatórios.&#13;
+. Podem ser coloridos ou mudar com a cor da Linha.&#13;
+</text>	</mod>	<mod border="0" color="EFEFEF" icons="" title="Clone" x="-50" y="-15">		<text>+ Clone:&#13;
+- Icone:&#13;
+. Dois pincéis cruzados.&#13;
+. O fundo é da cor das camadas rascais.</text>	</mod>	<mod border="0" color="D8D8D8" icons="" title="Rotacionar" x="-51" y="-27">		<text>+ Rotacionar:
+- Icone:
+. 2 setas em um círculo.
+. O fundo é claro, neutro.
+- Cursor:
+. Uma seta com um círculo branco ao lado.
+. Quando pressionado, a seta brilha.</text>	</mod>	<mod border="0" color="999999" icons="" title="Borda" x="29" y="81">		<text>+ Borda:
+//Side
+	enum Side{
+		NONE, ALL, TOP, TOP_RIGHT, RIGHT, BOTTOM_RIGHT, BOTTOM, BOTTOM_LEFT, LEFT, TOP_LEFT;
+		boolean is(Side...);
+	}
+	Side side;
+		getSide(Point ponto);
+//Janela(Pai)
+	Window janela;
+//Bordas
+	static int TOP_WIDTH;						//Grossura da borda no topo
+	static int WIDTH;							//Grossura das bordas
+		int getInnerX();
+		int getInnerY();
+		int getInnerWidth();
+		int getInnerHeight();
+	Rectangle getInnerBounds();
+//Áreas das Bordas
+	Rectangle getTitleBar();
+	Rectangle getTopBorder();
+	Rectangle getBottomBorder();
+	Rectangle getLeftBorder();
+	Rectangle getRightBorder();
+//Var Globais
+	static Color WINDOW_COLOR					//Cor da borda
+	static Color WINDOW_DISABLED_COLOR	//Cor da borda desfocada
+	Rectangle windowSize;						//Usado no resize da janela
+//Botões
+	List&lt;Botao&gt;botoes;							//Botões presentes na borda
+		void add(Botao);
+//Âncoras
+	Ancora ancoraTop;
+		Ancora getTop();
+	Ancora ancoraRight;
+		Ancora getRight();
+	Ancora ancoraLeft;
+		Ancora getLeft();
+	Ancora ancoraBottom;
+		Ancora getBottom();
+//Espaços
+	int spaceExterno;
+		int getSpaceExterno();
+		void setSpaceExterno(int);
+	int spaceTop;
+		int getSpaceTop();
+		void setSpaceTop(int);
+	int spaceRight;
+		int getSpaceRight();
+		void setSpaceRight(int);
+	int spaceBottom;
+		int getSpaceBottom();
+		void setSpaceBottom(int);
+	int spaceLeft;
+		int getSpaceLeft();
+		void setSpaceLeft(int);
+//Main
+	Borda(JDialog);
+	Borda(JFrame);
+	void setJanela(Window);
+	Rectangle getAnchoredBounds();
+	void setAnchoredBounds();
+//Draw
+	void draw(Graphics);
+		void drawShadow(Graphics);	//Desenha as sombras
+			//Desenha as sombras, uma para cada lado e cada canto
+			void drawShadowBlock(Graphics2D,int,int,int,int,Side);
+		void drawBorda(Graphics);	//Desenha as bordas
+</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="-68" y="108">		<text>+ LEFT:
+	if(!contains(mouse)){
+		setState(DRAGGED);
+		if(popup){
+			popup.hide();
+		}
+	}</text>	</mod>	<mod border="0" color="33CCFF" icons="" title="LEFT" x="-58" y="115">		<text>+ LEFT:
+	if(contains(mouse)){
+		setState(ACTIVE);
+		if(popup){
+			popup.show(mouse);
+		}
+	}</text>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="toolbox" x="12" y="40">		<text/>	</mod>	<mod border="0" color="33CCFF" icons="" title="Anotações" x="9" y="-9">		<text>+ Anotações:&#13;
+- Uma grade de píxels formam a imagem.&#13;
+. Os vetores ficam posicionados subpíxelmente.&#13;
+. 100x100 são as posições em que pode ficar.&#13;
+. 232.543 é uma coordenada válida de um Ponto.&#13;
+. Redimencionar afeta a coordenada, a tratando como o tamanho da imagem x100.&#13;
+- Incluir bézier.&#13;
+. Ela seria usada para incluir fontes e criar formas precisas.&#13;
+. Uma Linha pode ser spline ou bézier.&#13;
+  Um spline segue todos os Pontos. Utiliza vários Pontos.&#13;
+  Um bézier segue uma ponta, utiliza dois dos no meio como pontos de controle, e segue até a outra ponta. Utiliza 4 em 4 Pontos, em segmentos.&#13;
+  Linhas retas são várias splines interconectadas por Pontos. Uma spline com apenas 2 pontos utiliza a função de linha em vez da de spline.&#13;
+- Existe uma imagem final do desenho, a que é salva, e uma imagem acima das ferramentas(Estrutura dos vetores, local do Pincél, etc).&#13;
+- Uma Linha é formada por milhares de Formas com fundo de textura.&#13;
+. Ao desenhar tudo, as Formas são fundidas em uma linha e desenhadas.&#13;
+- Alívio de hardware.&#13;
+. Apenas a imagem final tem a textura das Linhas, elas possuindo apenas uma forma sólida durante a edição.&#13;
+. A Linha pode ou não ser escalável, sendo exibida suavemente ou sendo mostrada como ficará na imagem final.&#13;
+- Fusão de lados.&#13;
+. Partindo de uma linha reta dobrada a 90º, ela eventualmente se encontra com outra linha do próximo Ponto, se o local de intercecção for mais próximo do que o ponto que define a lateral, significa que aquele ponto está dentro da Linha, desnecessário.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Ponto2D" x="61" y="61">		<text>+ Ponto2D:
+//Cor
+	Color COR;
+//Local
+	double x;
+		double getX();
+		void setX(double);
+	double y;
+		double getY();
+		void setY(double);
+	void setLocation(double,double);
+//Form
+	Path2D.Double getForm();
+//Main
+	Ponto2D();
+	Ponto2D(double,double);
+	Ponto2D(Ponto2D);
+//Cálculos
+	void set(double,double);	//Muda os valores
+	void set(Ponto2D);			//Muda os valores
+	Ponto2D add(Ponto2D);		//Adiciona os valores
+	Ponto2D sub(Ponto2D);		//Subtrai os valores
+	Ponto2D scale(double);		//Multiplica os valores
+//Funções
+	double getDistance(Ponto2D);
+	double getAngle(Ponto2D);
+	Ponto2D getRelativePoint(double,double);	//Retorna um Ponto2D que esteja a certo ângulo e distância deste. O angle é em radians.</text>	</mod>	<mod border="0" color="DCDCDC" icons="/Basics/Empty.png" title="vector" x="49" y="35">		<text/>	</mod>	<mod border="0" color="999999" icons="" title="Toggle" x="-37" y="68">		<text>+ Botao:
+- Extends Botao.
+//Toggle
+	boolean toggled;
+		boolean isToggled();
+		void setToggle(boolean);
+//Main
+	Toggle(Painel);
+//Main Draw
+@Override
+	void draw(Graphics);</text>	</mod>	<mod border="0" color="000000" icons="" title="Vetorial" x="38" y="63">		<text>+ Vetorial:
+//Camada(Pai)
+	Camada camada;
+		Camada getCamada();
+//Print
+	Image print;
+		Image getPrint();
+		void setSize(int,int);
+//Linhas
+	List&lt;Linha&gt; linhas;
+		List&lt;Linha&gt; getLinhas();
+		boolean addLinha();
+		boolean delLinha();
+//Formas
+	List&lt;Forma&gt; formas;
+		List&lt;Forma&gt; getFormas();
+		boolean addForma();
+		boolean delForma();
+//Main
+	Rascal(Camada);
+//Redraw
+	void updatePrint();
+//Draw
+	void draw(Graphics2D);</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Correntes" x="29" y="4">		<text>+ Correntes:
+- São duas Linhas, elas seguindo os mesmos Pontos.
+- Uma delas possúi os links de frente e a outra, os links virados.
+- Elas possuem múltiplas imagens: O do link e uma imagem vazia.
+. Cada imagem tem um tamanho definido, de forma que a imagem vazia coincide perfeitamente com o link da outra Linha.
+- A opção de deformar conforme o tamanho dos Pontos cria uma variação gradual de tamanho na própria imagem, fazendo as correntes parecerem estar mais próximas ou distantes.
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Interface&#10;da Textura" x="9" y="-23">		<text>* Interface da Textura:
+- A Textura é presente em todos os vetores, mudando o seu fundo de forma independente dos outros.
+. A Linha tem sua textura mudada em cada um de seus pontos.
+
++ Imagens:
+- (Image)Mostra a textura que será utilizada.
+- (Button)"Selecionar Textura".
+. Pode incluir uma imagem vetor.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Interface&#10;do Pincel" x="6" y="-19">		<text>* Interface do Pincel:
+- Todos ficam em abas no topo da janela.
+
++ Textura:
+- (Scroll):
+. Existe para incluir várias imagens diferentes, a ordem em que aparecem é a sua ordem na Linha.
+. (Image)Mostra a imagem que será utilizada.
+  Arrastando a imagem nele, muda-se seu deslocamento absoluto.
+  (NumericTextField)Mostram o x do deslocamento absoluto.
+  (NumericTextField)Mostram o y do deslocamento absoluto.
+. (Button)"Apagar".
+- (Button)"+".
+. Abre uma janela para selecionar uma imagem.
+- (Menu):
+. (Item)"Utilizar como imagem".
+. (Item)"Utilizar como máscara".
+. Ignora as cores e utiliza a imagem como base para a cor de Cores.
+  O preto da imagem é a parte opaca, e o branco, transparente.
+
++ Deslocamento:
+- (Image)Mostra vários pontos, destacando a área onde varia o deslocamento.
+- (Gráfico)Mostra um sino que descreve a probabilidade do deslocamento relativo x.
+. (Slide2S)Horizontal e com duas setas, muda os lados do sino.
+. (Slide)Vertical e com uma seta, muda a altura do sino.
+- (Gráfico)Mostra um sino que descreve a probabilidade do deslocamento relativo y.
+. (Slide2S)Vertical e com duas setas, muda os lados do sino.
+. (Slide)Horizontal e com uma seta, muda a altura do sino deitado.
+
++ Ponta:
+- (Image)Mostra a forma que será utilizada.
+. Arrastando a imagem nele, muda-se seu deslocamento.
+. (NumericTextField)Mostram o x do deslocamento.
+. (NumericTextField)Mostram o y do deslocamento.
+. O preto da imagem é a parte opaca, e o branco, transparente.
+. Um x no meio indica a ponta do cursor.
+- (Button)"Selecionar Ponta".
+- (Image)Mostra a textura cortada pela forma da ponta.
+
++ Quantidade:
+- (Image)Mostra a Linha, as texturas a formando.
+- (Gráfico)Mostra um sino que descreve a probabilidade de aparição de texturas.
+. (Slide2S)Horizontal e com duas setas, muda os lados do sino.
+  Controla a variância na quantidade de texturas.
+. (Slide2SS)Vertical e com duas setas, muda a base e altura do sino.
+  Controla a quantidade de texturas e a quantidade que varia no sino.
+- (Menu):
+. (Item)"Variar em toda a linha".
+. (Item)"Variar entre pontos".
+
++ Dispersão:
+- (Image)Mostra a Linha, as texturas a formando.
+- (Gráfico)Mostra um sino que descreve a probabilidade de dispersão das texturas.
+. (Slide)Horizontal e com uma seta, muda a altura do sino deitado.
+  Controla a quantidade que varia no sino.
+. (Slide2S)Vertical e com duas setas, muda os lados do sino deitado.
+  Controla a variância na dispersão de texturas.
+
++ Rotação:
+- (Image)Mostra a Linha, as texturas a formando.
+- (Slide)Hozizontal e com uma seta, muda a probabilidade de se inverter a textura.
+. Muda os valores na ordem "[0-100]% / [0-100]%".
+. A inversão fica na direita, e o normal, na esquerda.
+- (Menu):
+. (Item)"Seguir a direção da linha".
+. (Item)"Direção absoluta".
+- (Image)Mostra um círculo, várias linhas destacando as rotações que a ponta pode tomar.
+- (Scroll):
+. Existe para incluir vários círculos diferentes.
+. (Gráfico)Mostra um círculo que descreve as direções que a ponta pode tomar.
+  Uma fraca linha fixa indica a direção da linha ou global.
+  (Slide2S)Circular e com duas setas, muda a direção e o variação permitida.
+. (Button)"+".
+  Adiciona mais círculos.
+
++ Tamanho:
+- (Image)Mostra a Linha, as texturas a formando.
+- (Menu):
+. (Item)"Variar em toda a linha".
+. (Item)"Variar entre pontos".
+- (Menu):
+. (Item)"Variar com o tamanho dos pontos".
+. (Item)"Tamanho absoluto".
+
++ Cor:
+- É bloqueado caso a textura não seja definida como máscara.
+- (Menu):
+. (Item)"Utilizar a cor do círculo de cores"
+. (Item)"Ter cor própria".
+- (Scroll):
+. Existe para incluir vários círculos de cores diferentes.
+. (Gráfico)Mostra um círculo igual ao da janela de Cores, mas com variação.
+  (Slide2S)Circular e com duas setas, muda o hue e a variação permitida.
+  (Slide2D2S)Planar e com dois pontos, muda a saturation e light, e a variação permitida.
+  (Slide2S)Vertical e com duas setas, muda o alpha e a variação permitida.
+. (Button)"+".
+  Adiciona mais círculos de cores.
+
+
+- Variar tamanho, strech.
+- Pontas da Linha?
+- Variação com noise?
+. A quantidade pode variar com um plano mostrando o noise.
+. O pico em quantidade é inútil?
+. O tamanho pode variar com noise!
+- Sequência random, seleção de sequência avançada?
+</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Randomização&#10;Limitada por Sino" x="5" y="-27">		<text>+ Randomização Limitada por Sino:
+- Gera-se um número random, variando em uma coordenada. Ele é comparado com o ponto presente na spline que constrói o sino.
+- Gera-se um outro número e, se este é menor do que o y do sino, o ponto é válido.
+- A randomização deve mudar no mínimo, evitando que mover os Pontos mude tudo.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Pincel" x="0" y="-19">		<text>+ Pincel:&#13;
+- Ele pode guardar uma lista de Linhas, cada uma com um Pincel próprio.&#13;
+- Todas são desenhadas juntas, uma acima da outra, criando um efeito juntos.</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Partículas" x="0" y="-22">		<text>+ Partículas:&#13;
+- Parecido com a Textura ou com o Fill, pode ser aplicada em um vetor ou uma área, e cria partículas com chances variadas de aparecer.&#13;
+- Ou é o mesmo que o Pincel?</text>	</mod>	<mod border="0" color="93E4FF" icons="" title="Estilizar" x="-2" y="-16">		<text>+ Estilizar:
+- Passa a configuração do Pincel e Textura para a Linha.</text>	</mod>	<mod border="0" color="999999" icons="" title="Rabiscos" x="-34" y="-13">		<text>+ Rabiscos:&#13;
+- Uma janela que pode ser aberta como as interfaces é a janela de rabiscos.&#13;
+. Ela pode ser facilmente limpada.&#13;
+. Serve para guardar linhas e cores.</text>	</mod>	<cox border="0" pai="0" son="1">		<text/>	</cox>	<cox border="0" pai="0" son="2">		<text/>	</cox>	<cox border="0" pai="0" son="6">		<text/>	</cox>	<cox border="0" pai="0" son="22">		<text/>	</cox>	<cox border="0" pai="0" son="33">		<text/>	</cox>	<cox border="0" pai="0" son="136">		<text/>	</cox>	<cox border="0" pai="1" son="24">		<text/>	</cox>	<cox border="0" pai="1" son="25">		<text/>	</cox>	<cox border="0" pai="1" son="26">		<text/>	</cox>	<cox border="0" pai="1" son="3">		<text/>	</cox>	<cox border="0" pai="1" son="107">		<text/>	</cox>	<cox border="0" pai="2" son="28">		<text/>	</cox>	<cox border="0" pai="2" son="78">		<text/>	</cox>	<cox border="0" pai="2" son="104">		<text/>	</cox>	<cox border="0" pai="2" son="184">		<text/>	</cox>	<cox border="0" pai="2" son="191">		<text/>	</cox>	<cox border="0" pai="4" son="8">		<text/>		<nod x="-53" y="-25"/>	</cox>	<cox border="0" pai="4" son="9">		<text/>		<nod x="-55" y="-34"/>	</cox>	<cox border="0" pai="4" son="10">		<text/>		<nod x="-69" y="-34"/>	</cox>	<cox border="0" pai="4" son="11">		<text/>		<nod x="-56" y="0"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="12">		<text/>		<nod x="-56" y="17"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="13">		<text/>		<nod x="-56" y="15"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="14">		<text/>		<nod x="-77" y="-29"/>	</cox>	<cox border="0" pai="4" son="15">		<text/>		<nod x="-77" y="-29"/>	</cox>	<cox border="0" pai="4" son="16">		<text/>		<nod x="-70" y="-8"/>	</cox>	<cox border="0" pai="4" son="17">		<text/>		<nod x="-69" y="-34"/>	</cox>	<cox border="0" pai="4" son="18">		<text/>		<nod x="-82" y="-18"/>	</cox>	<cox border="0" pai="4" son="19">		<text/>		<nod x="-53" y="-25"/>	</cox>	<cox border="0" pai="4" son="20">		<text/>		<nod x="-77" y="-29"/>	</cox>	<cox border="0" pai="4" son="21">		<text/>		<nod x="-82" y="-18"/>	</cox>	<cox border="0" pai="4" son="23">		<text/>		<nod x="-70" y="-8"/>	</cox>	<cox border="0" pai="26" son="4">		<text/>	</cox>	<cox border="0" pai="4" son="27">		<text/>		<nod x="-51" y="-12"/>	</cox>	<cox border="0" pai="4" son="29">		<text/>		<nod x="-56" y="10"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="102">		<text/>		<nod x="-69" y="-34"/>	</cox>	<cox border="0" pai="4" son="103">		<text/>		<nod x="-69" y="-34"/>	</cox>	<cox border="0" pai="4" son="108">		<text/>		<nod x="-56" y="7"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="110">		<text/>		<nod x="-56" y="2"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="113">		<text/>		<nod x="-56" y="5"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="174">		<text/>		<nod x="-56" y="12"/>		<nod x="-56" y="-2"/>	</cox>	<cox border="0" pai="4" son="185">		<text/>		<nod x="-51" y="-12"/>	</cox>	<cox border="0" pai="4" son="186">		<text/>		<nod x="-53" y="-25"/>	</cox>	<cox border="0" pai="26" son="5">		<text/>	</cox>	<cox border="0" pai="26" son="7">		<text/>	</cox>	<cox border="0" pai="8" son="82">		<text/>	</cox>	<cox border="0" pai="9" son="81">		<text/>	</cox>	<cox border="0" pai="10" son="79">		<text/>	</cox>	<cox border="0" pai="10" son="80">		<text/>	</cox>	<cox border="0" pai="11" son="84">		<text/>	</cox>	<cox border="0" pai="11" son="85">		<text/>	</cox>	<cox border="0" pai="12" son="86">		<text/>	</cox>	<cox border="0" pai="12" son="120">		<text/>	</cox>	<cox border="0" pai="13" son="87">		<text/>	</cox>	<cox border="0" pai="13" son="116">		<text/>	</cox>	<cox border="0" pai="14" son="98">		<text/>	</cox>	<cox border="0" pai="15" son="92">		<text/>	</cox>	<cox border="0" pai="16" son="97">		<text/>	</cox>	<cox border="0" pai="17" son="93">		<text/>	</cox>	<cox border="0" pai="17" son="94">		<text/>	</cox>	<cox border="0" pai="18" son="99">		<text/>	</cox>	<cox border="0" pai="18" son="101">		<text/>	</cox>	<cox border="0" pai="19" son="83">		<text/>	</cox>	<cox border="0" pai="20" son="89">		<text/>	</cox>	<cox border="0" pai="21" son="95">		<text/>	</cox>	<cox border="0" pai="22" son="64">		<text/>	</cox>	<cox border="0" pai="22" son="196">		<text/>	</cox>	<cox border="0" pai="23" son="96">		<text/>	</cox>	<cox border="0" pai="23" son="100">		<text/>	</cox>	<cox border="0" pai="26" son="30">		<text/>	</cox>	<cox border="0" pai="26" son="66">		<text/>	</cox>	<cox border="0" pai="26" son="203">		<text/>	</cox>	<cox border="0" pai="27" son="90">		<text/>	</cox>	<cox border="0" pai="27" son="91">		<text/>	</cox>	<cox border="0" pai="28" son="31">		<text/>	</cox>	<cox border="0" pai="28" son="32">		<text/>	</cox>	<cox border="0" pai="28" son="173">		<text/>	</cox>	<cox border="0" pai="29" son="88">		<text/>	</cox>	<cox border="0" pai="29" son="117">		<text/>	</cox>	<cox border="0" pai="31" son="112">		<text/>	</cox>	<cox border="0" pai="31" son="121">		<text/>	</cox>	<cox border="0" pai="31" son="122">		<text/>	</cox>	<cox border="0" pai="33" son="73">		<text/>	</cox>	<cox border="0" pai="33" son="74">		<text/>	</cox>	<cox border="0" pai="33" son="75">		<text/>	</cox>	<cox border="0" pai="33" son="183">		<text/>	</cox>	<cox border="2" pai="34" son="35">		<text/>	</cox>	<cox border="2" pai="34" son="38">		<text/>	</cox>	<cox border="2" pai="34" son="47">		<text/>	</cox>	<cox border="2" pai="34" son="48">		<text/>	</cox>	<cox border="2" pai="34" son="40">		<text/>	</cox>	<cox border="2" pai="34" son="50">		<text/>	</cox>	<cox border="2" pai="34" son="51">		<text/>	</cox>	<cox border="1" pai="34" son="65">		<text/>	</cox>	<cox border="2" pai="34" son="67">		<text/>	</cox>	<cox border="3" pai="73" son="34">		<text/>	</cox>	<cox border="4" pai="36" son="35">		<text/>	</cox>	<cox border="3" pai="190" son="35">		<text/>	</cox>	<cox border="1" pai="35" son="194">		<text/>	</cox>	<cox border="1" pai="35" son="41">		<text/>	</cox>	<cox border="2" pai="36" son="38">		<text/>	</cox>	<cox border="2" pai="36" son="41">		<text/>	</cox>	<cox border="3" pai="77" son="36">		<text/>	</cox>	<cox border="2" pai="36" son="187">		<text/>	</cox>	<cox border="4" pai="36" son="67">		<text/>	</cox>	<cox border="4" pai="36" son="47">		<text/>	</cox>	<cox border="4" pai="36" son="48">		<text/>	</cox>	<cox border="3" pai="77" son="37">		<text/>	</cox>	<cox border="2" pai="37" son="187">		<text/>	</cox>	<cox border="1" pai="38" son="39">		<text/>	</cox>	<cox border="3" pai="77" son="38">		<text/>	</cox>	<cox border="4" pai="39" son="40">		<text/>	</cox>	<cox border="4" pai="39" son="41">		<text/>	</cox>	<cox border="4" pai="39" son="50">		<text/>	</cox>	<cox border="4" pai="39" son="51">		<text/>	</cox>	<cox border="3" pai="76" son="39">		<text/>	</cox>	<cox border="2" pai="40" son="65">		<text/>	</cox>	<cox border="3" pai="75" son="40">		<text/>	</cox>	<cox border="3" pai="41" son="52">		<text/>	</cox>	<cox border="2" pai="41" son="72">		<text/>	</cox>	<cox border="3" pai="76" son="41">		<text/>	</cox>	<cox border="4" pai="41" son="194">		<text/>	</cox>	<cox border="1" pai="47" son="41">		<text/>	</cox>	<cox border="1" pai="48" son="41">		<text/>	</cox>	<cox border="1" pai="67" son="41">		<text/>	</cox>	<cox border="2" pai="42" son="43">		<text/>	</cox>	<cox border="1" pai="65" son="42">		<text/>	</cox>	<cox border="3" pai="74" son="42">		<text/>	</cox>	<cox border="2" pai="42" son="195">		<text/>	</cox>	<cox border="3" pai="74" son="43">		<text/>	</cox>	<cox border="4" pai="49" son="44">		<text/>	</cox>	<cox border="1" pai="45" son="44">		<text/>	</cox>	<cox border="1" pai="44" son="46">		<text/>	</cox>	<cox border="3" pai="193" son="44">		<text/>	</cox>	<cox border="1" pai="195" son="44">		<text/>	</cox>	<cox border="3" pai="193" son="45">		<text/>	</cox>	<cox border="1" pai="195" son="45">		<text/>	</cox>	<cox border="4" pai="192" son="46">		<text/>	</cox>	<cox border="3" pai="193" son="46">		<text/>	</cox>	<cox border="3" pai="190" son="47">		<text/>	</cox>	<cox border="1" pai="47" son="194">		<text/>	</cox>	<cox border="3" pai="190" son="48">		<text/>	</cox>	<cox border="1" pai="48" son="194">		<text/>	</cox>	<cox border="1" pai="49" son="192">		<text/>	</cox>	<cox border="3" pai="193" son="49">		<text/>	</cox>	<cox border="3" pai="75" son="50">		<text/>	</cox>	<cox border="3" pai="75" son="51">		<text/>	</cox>	<cox border="0" pai="52" son="53">		<text/>	</cox>	<cox border="0" pai="53" son="56">		<text/>	</cox>	<cox border="0" pai="61" son="53">		<text/>	</cox>	<cox border="0" pai="69" son="53">		<text/>	</cox>	<cox border="0" pai="54" son="70">		<text/>	</cox>	<cox border="0" pai="57" son="54">		<text/>	</cox>	<cox border="0" pai="55" son="58">		<text/>	</cox>	<cox border="0" pai="55" son="60">		<text/>	</cox>	<cox border="0" pai="70" son="55">		<text/>	</cox>	<cox border="0" pai="189" son="55">		<text/>	</cox>	<cox border="0" pai="56" son="57">		<text/>	</cox>	<cox border="0" pai="57" son="61">		<text/>	</cox>	<cox border="0" pai="71" son="57">		<text/>	</cox>	<cox border="0" pai="58" son="188">		<text/>	</cox>	<cox border="0" pai="59" son="63">		<text/>	</cox>	<cox border="0" pai="59" son="62">		<text/>	</cox>	<cox border="0" pai="188" son="59">		<text/>	</cox>	<cox border="0" pai="60" son="71">		<text/>	</cox>	<cox border="0" pai="62" son="69">		<text/>	</cox>	<cox border="0" pai="63" son="189">		<text/>	</cox>	<cox border="3" pai="74" son="65">		<text/>	</cox>	<cox border="3" pai="190" son="67">		<text/>	</cox>	<cox border="1" pai="67" son="194">		<text/>	</cox>	<cox border="3" pai="77" son="68">		<text/>	</cox>	<cox border="1" pai="187" son="68">		<text/>	</cox>	<cox border="3" pai="76" son="72">		<text/>	</cox>	<cox border="0" pai="74" son="193">		<text/>	</cox>	<cox border="3" pai="74" son="195">		<text/>	</cox>	<cox border="0" pai="75" son="76">		<text/>	</cox>	<cox border="0" pai="75" son="77">		<text/>	</cox>	<cox border="3" pai="76" son="194">		<text/>	</cox>	<cox border="3" pai="77" son="187">		<text/>	</cox>	<cox border="0" pai="77" son="190">		<text/>	</cox>	<cox border="0" pai="104" son="105">		<text/>	</cox>	<cox border="0" pai="105" son="106">		<text/>	</cox>	<cox border="0" pai="108" son="109">		<text/>	</cox>	<cox border="0" pai="108" son="119">		<text/>	</cox>	<cox border="0" pai="110" son="111">		<text/>	</cox>	<cox border="0" pai="110" son="118">		<text/>	</cox>	<cox border="0" pai="113" son="114">		<text/>	</cox>	<cox border="0" pai="113" son="115">		<text/>	</cox>	<cox border="0" pai="123" son="124">		<text/>	</cox>	<cox border="0" pai="135" son="123">		<text/>	</cox>	<cox border="0" pai="145" son="123">		<text/>	</cox>	<cox border="0" pai="129" son="123">		<text/>	</cox>	<cox border="0" pai="123" son="148">		<text/>	</cox>	<cox border="0" pai="157" son="123">		<text/>	</cox>	<cox border="0" pai="158" son="123">		<text/>	</cox>	<cox border="0" pai="160" son="123">		<text/>	</cox>	<cox border="0" pai="123" son="182">		<text/>	</cox>	<cox border="0" pai="124" son="125">		<text/>	</cox>	<cox border="0" pai="124" son="137">		<text/>	</cox>	<cox border="0" pai="124" son="138">		<text/>	</cox>	<cox border="0" pai="125" son="128">		<text/>	</cox>	<cox border="0" pai="126" son="127">		<text/>	</cox>	<cox border="0" pai="128" son="126">		<text/>	</cox>	<cox border="0" pai="127" son="131">		<text/>	</cox>	<cox border="0" pai="128" son="130">		<text/>	</cox>	<cox border="0" pai="128" son="163">		<text/>	</cox>	<cox border="0" pai="161" son="128">		<text/>	</cox>	<cox border="0" pai="128" son="180">		<text/>	</cox>	<cox border="0" pai="130" son="129">		<text/>	</cox>	<cox border="0" pai="131" son="143">		<text/>	</cox>	<cox border="0" pai="131" son="144">		<text/>	</cox>	<cox border="0" pai="131" son="169">		<text/>	</cox>	<cox border="0" pai="170" son="131">		<text/>	</cox>	<cox border="0" pai="131" son="179">		<text/>	</cox>	<cox border="0" pai="132" son="133">		<text/>	</cox>	<cox border="0" pai="136" son="132">		<text/>	</cox>	<cox border="0" pai="133" son="134">		<text/>	</cox>	<cox border="0" pai="134" son="135">		<text/>	</cox>	<cox border="0" pai="136" son="159">		<text/>	</cox>	<cox border="0" pai="137" son="154">		<text/>	</cox>	<cox border="0" pai="138" son="139">		<text/>	</cox>	<cox border="0" pai="139" son="141">		<text/>	</cox>	<cox border="0" pai="139" son="146">		<text/>	</cox>	<cox border="0" pai="162" son="139">		<text/>	</cox>	<cox border="0" pai="168" son="139">		<text/>	</cox>	<cox border="0" pai="164" son="139">		<text/>	</cox>	<cox border="0" pai="166" son="139">		<text/>	</cox>	<cox border="0" pai="139" son="181">		<text/>	</cox>	<cox border="0" pai="141" son="140">		<text/>	</cox>	<cox border="0" pai="143" son="142">		<text/>	</cox>	<cox border="0" pai="144" son="145">		<text/>	</cox>	<cox border="0" pai="146" son="147">		<text/>	</cox>	<cox border="0" pai="147" son="160">		<text/>		<nod x="133" y="67"/>	</cox>	<cox border="0" pai="147" son="161">		<text/>		<nod x="133" y="70"/>	</cox>	<cox border="0" pai="147" son="170">		<text/>		<nod x="133" y="73"/>	</cox>	<cox border="0" pai="147" son="171">		<text/>		<nod x="133" y="76"/>	</cox>	<cox border="0" pai="147" son="172">		<text/>		<nod x="133" y="79"/>	</cox>	<cox border="0" pai="150" son="149">		<text/>	</cox>	<cox border="0" pai="149" son="151">		<text/>	</cox>	<cox border="0" pai="154" son="150">		<text/>	</cox>	<cox border="0" pai="151" son="153">		<text/>	</cox>	<cox border="0" pai="151" son="155">		<text/>	</cox>	<cox border="0" pai="151" son="167">		<text/>	</cox>	<cox border="0" pai="172" son="151">		<text/>	</cox>	<cox border="0" pai="151" son="177">		<text/>	</cox>	<cox border="0" pai="153" son="152">		<text/>	</cox>	<cox border="0" pai="154" son="156">		<text/>	</cox>	<cox border="0" pai="154" son="165">		<text/>	</cox>	<cox border="0" pai="171" son="154">		<text/>	</cox>	<cox border="0" pai="154" son="178">		<text/>	</cox>	<cox border="0" pai="155" son="158">		<text/>	</cox>	<cox border="0" pai="156" son="157">		<text/>	</cox>	<cox border="0" pai="163" son="162">		<text/>	</cox>	<cox border="0" pai="165" son="164">		<text/>	</cox>	<cox border="0" pai="167" son="166">		<text/>	</cox>	<cox border="0" pai="169" son="168">		<text/>	</cox>	<cox border="0" pai="174" son="175">		<text/>	</cox>	<cox border="0" pai="174" son="176">		<text/>	</cox>	<cox border="0" pai="184" son="197">		<text/>	</cox>	<cox border="0" pai="184" son="198">		<text/>	</cox>	<cox border="3" pai="193" son="192">		<text/>	</cox>	<cox border="0" pai="197" son="199">		<text/>	</cox>	<cox border="0" pai="198" son="200">		<text/>	</cox>	<cox border="0" pai="198" son="201">		<text/>	</cox>	<cox border="0" pai="198" son="202">		<text/>	</cox>
+</mind>
